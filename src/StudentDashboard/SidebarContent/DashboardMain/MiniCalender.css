@@ -1,0 +1,232 @@
+.miniCalender .react-calendar {
+  border-radius: 14px;
+  background: #fcfcfc;
+  padding: 24px 24px 85px 24px;
+  border: none;
+  width: 100%;
+  height: 392px;
+  /* Card shadow */
+  box-shadow: 0px 4px 16px 0px rgba(138, 150, 154, 0.25);
+}
+
+.miniCalender .calenderTextMain {
+  margin-top: -40px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 32px;
+}
+
+.miniCalender .calenderTextMain .calenderIcon {
+  background-color: #80e5c3;
+  padding: 7px;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+
+.miniCalender .calenderText {
+  display: flex;
+  align-items: center;
+  color: var(--deep-grey, rgba(37, 39, 39, 0.78));
+  text-align: center;
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+}
+
+.miniCalender .react-calendar * {
+  color: #4b4a49;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 15.035px;
+  font-style: normal;
+  margin: 0;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+      text-decoration: none;
+}
+
+.miniCalender .react-calendar .react-calendar__navigation__next2-button,
+.react-calendar__navigation__prev2-button {
+  display: none;
+}
+
+.react-calendar .react-calendar__navigation__label {
+  flex-grow: 0 !important;
+}
+
+.react-calendar .react-calendar__navigation {
+  justify-content: space-around;
+}
+
+.react-calendar abbr[title] {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.react-calendar .react-calendar__tile {
+  position: relative;
+}
+
+.react-calendar .react-calendar__tile abbr[aria-label="July 3, 2023"]::before,
+abbr[aria-label="July 14, 2023"]::before,
+abbr[aria-label="July 13, 2023"]::before,
+abbr[aria-label="July 31, 2023"]::before {
+  content: "";
+
+  background-color: #80e5c3;
+  border-radius: 100px;
+  padding: 3px;
+  position: absolute;
+  bottom: 0px;
+  /* left: 17px; */
+}
+
+.react-calendar .react-calendar__tile abbr[aria-label="July 27, 2023"]::before {
+  content: "";
+
+  background-color: #aa76ed;
+  border-radius: 100px;
+  padding: 3px;
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+
+  /* left: 15px; */
+}
+
+/*  */
+.react-calendar .react-calendar__tile abbr[aria-label="July 3, 2023"]::before,
+abbr[aria-label="11 July 2023"]::before,
+abbr[aria-label="13 July 2023"]::before,
+abbr[aria-label="31 July 2023"]::before {
+  content: "";
+
+  background-color: #80e5c3;
+  border-radius: 100px;
+  padding: 3px;
+  position: absolute;
+  bottom: 0px;
+  /* left: 17px; */
+}
+
+.react-calendar .react-calendar__tile abbr[aria-label="July 27, 2023"]::before {
+  content: "";
+
+  background-color: #aa76ed;
+  border-radius: 100px;
+  padding: 3px;
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+
+  /* left: 15px; */
+}
+
+.react-calendar .react-calendar__navigation__label span {
+  color: var(--black, #252727);
+  text-align: center;
+
+  /* Button */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  padding: 0px;
+}
+
+.react-calendar .react-calendar__navigation__prev-button,
+.react-calendar__navigation__next-button {
+  color: #f47b00 !important;
+  font-size: 25px !important;
+}
+
+.react-calendar .react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus,
+.react-calendar__tile--now,
+.react-calendar__tile--active {
+  background: #ffb962 !important;
+}
+
+.react-calendar .react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 769px) and (min-width: 480px) {
+  .margin-dashboard-calender {
+    margin-left: 35px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .slick-next {
+    right: -7px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .clander-top-scroll {
+    margin-top: 15px;
+  }
+
+  .miniCalender .react-calendar * {
+    font-size: 10.035px;
+  }
+
+  .miniCalender .react-calendar {
+    height: 340px;
+  }
+
+  .slick-next {
+    right: -7px;
+  }
+
+  .slick-prev {
+    left: -7px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .clander-top-scroll {
+    margin-top: 20px;
+    /* overflow: scroll; */
+  }
+
+  .miniCalender .react-calendar * {
+    font-size: 8.035px;
+  }
+
+  .react-calendar__tile {
+    padding: 8px 0px;
+  }
+
+  /* .react-calendar__viewContainer {
+    margin-left: 24px;
+  } */
+  .miniCalender .react-calendar {
+    height: 300px;
+  }
+
+  .miniCalender .react-calendar {
+    padding: 10px 10px 30px 10px !important;
+  }
+
+  .mainGoalsAndTask {
+    padding: 7px !important;
+  }
+
+  .mainGoalsAndTaskHeading {
+    font-size: 15px;
+
+    line-height: 100%;
+  }
+
+  .sticky-top {
+    padding-inline: 36px;
+  }
+}

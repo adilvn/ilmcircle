@@ -1,0 +1,186 @@
+.contentContributorMain .headerSection a {
+  color: var(--tertiary-color-2, #f47b00);
+  /* Header 3 */
+  font-family: "Lato";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 28px */
+}
+.vc-cursor{
+  cursor: pointer;
+}
+.contentContributorMain{
+  padding-left: 100px;
+}
+.contentContributorMain .headerSection a:hover {
+  color: var(--tertiary-color-2, #f47b00);
+}
+.contentContributorMain .headerSection h4 {
+  color: var(--black, #252727);
+
+  /* Header 2 */
+  font-family: "Ysabeau";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 48px */
+  letter-spacing: -0.5px;
+}
+.contentContributorMain .headerSection .subHeading h3 {
+  color: var(--deep-grey, rgba(37, 39, 39, 0.78));
+  font-family: "Ysabeau";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 30px */
+  letter-spacing: -0.5px;
+}
+.contentContributorMain .headerSection .nav-link {
+  color: var(--deep-grey, rgba(37, 39, 39, 0.78));
+  text-align: center;
+
+  /* Button */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 22.4px */
+}
+
+.contentContributorMain .jobDescription .section {
+  border-radius: 14px;
+  border: 1px solid var(--light-grey, #e0e0db);
+  background: #fcfcfc;
+
+  /* Shadow/XSM */
+  box-shadow: 0px 1px 2px 3px rgba(16, 24, 40, 0.04);
+  padding: 32px;
+}
+
+.contentContributorMain .jobDescription .section .inputField {
+  padding: 12px 16px;
+  border-radius: 5px;
+  border: 1px solid var(--light-grey, #e0e0db);
+  background: #fcfcfc;
+  color: var(--grey, #6f7373);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+}
+.contentContributorMain .jobDescription .section .fieldName {
+  color: var(--black, #252727);
+
+  /* Caption */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 22.4px */
+}
+.orangeColor {
+  color: #f47b00 !important;
+}
+.contentContributorMain .section .inputFieldDis::placeholder,
+.inputFieldDis {
+  color: black !important;
+}
+
+.contentContributorMain .vacancyManagement .section {
+  border-radius: 14px;
+  border: 1px solid var(--light-grey, #e0e0db);
+  background: #fcfcfc;
+  padding: 32px;
+
+  /* Shadow/XSM */
+  box-shadow: 0px 1px 2px 3px rgba(16, 24, 40, 0.04);
+}
+
+.vacancyManagement .section .text {
+  color: var(--deep-grey, rgba(37, 39, 39, 0.78));
+
+  /* Header 3 */
+  font-family: "Lato";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 28px */
+}
+.applicant .section .p-datatable-table {
+  /* border: none; */
+}
+.applicant .section .nameColumn *,
+.applicant .section .nameColumn .p-column-header-content {
+  justify-content: start !important;
+  text-align: left;
+  color: var(--black, #252727);
+
+  /* Button */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 22.4px */
+}
+.applicant .section .nameColumn .nameColoumnImg {
+  width: 30px;
+  height: 30px;
+}
+.applicantSelection .p-column-header-content {
+  position: absolute;
+  top: -37px;
+}
+.applicantSelection {
+  width: 1rem !important;
+}
+.applicantSelection .p-checkbox-box,
+.applicantSelection .p-focus {
+  border-radius: 100px;
+  box-shadow: none !important;
+  outline: none !important;
+  border-spacing: none !important;
+}
+.applicant .subHeading p {
+  color: var(--deep-grey, rgba(37, 39, 39, 0.78));
+  font-family: "Lato";
+  font-size: 16px;
+  margin-top: 15px;
+  margin-left: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 22.4px */
+}
+.applicant .section .p-datatable .p-datatable-thead > tr > th {
+  background-color: transparent !important;
+}
+.applicantSelection svg {
+  color: white !important;
+}
+
+@media screen and ( max-width: 992px ) {
+  .contentContributorMain{
+    padding-left: 60px;
+  }
+  .main-heading-vc{
+    font-size: 30px !important;
+  }
+  
+  
+}
+@media screen and ( max-width: 568px ) {
+  .main-heading-vc{
+    font-size: 25px !important;
+  }
+  .vc-allvc{
+    font-size: 14px !important;
+  }
+  .vc-allvc-edit{
+    font-size: 20px !important;
+  }
+  .contentContributorMain .jobDescription .section {
+    padding: 10px;
+  }
+  
+}

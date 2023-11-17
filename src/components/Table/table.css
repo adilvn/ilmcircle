@@ -1,0 +1,174 @@
+table {
+  border-bottom: 1px solid #2e3545;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.block {
+  display: block;
+}
+
+table caption {
+  font-size: 1em;
+  margin: 0.5em 0 0.75em;
+}
+
+table tr {
+  border-bottom: 1px solid #2e3545;
+  padding: 0.35em;
+}
+
+table th,
+table td {
+  padding: 0.625em;
+  text-align: left;
+}
+
+table th {
+  font-size: 0.85em;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.bg-table {
+  padding-bottom: 70px;
+}
+
+.tb {
+  margin-bottom: 10px;
+}
+
+.teacherCominSoon {
+  height: 100vh;
+  background-image: url("../../asserts/images/Notifyme.png");
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.titleText {
+  color: var(--tertiary-color-2, #f47b00);
+  text-align: center;
+  font-family: "Ysabeau";
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 125%;
+  /* 100px */
+  letter-spacing: 2px;
+}
+
+.text-interWord {
+  text-align: justify !important;
+  text-justify: inter-word !important;
+}
+
+.comingSoonBox .content {
+  margin: 32px 0px;
+  color: #404040;
+  text-align: center;
+
+  /* Paragraph */
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  /* 25.2px */
+}
+
+.inputBoxComing {
+  padding: 0px 30px;
+}
+
+.inputBoxComing p {
+  color: var(--black, #404040);
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 22.4px */
+}
+
+.inputBoxComing input {
+  padding: 10px 16px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #e0e0db;
+  background: #fcfcfc;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04);
+  color: #6f7373;
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 22.4px */
+}
+
+@media screen and (max-width: 1505px) {
+  .titleText {
+    font-size: 70px !important;
+  }
+}
+
+@media screen and (max-width: 1325px) {
+  .titleText {
+    font-size: 60px !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .titleText {
+    font-size: 32px !important;
+    width: 100%;
+  }
+
+  .comingSoonBox .content {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .inputBoxComing {
+    padding: 0px 15px !important;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  table tr {
+    font-size: 9px;
+  }
+
+  table td {
+    padding: 5px !important;
+  }
+
+  .font-small small {
+    font-size: 7px !important;
+  }
+
+  .table-risponsive {}
+}
+
+@media (max-width: 425px)and (max-width: 375px) {
+
+  table td {
+    padding: 2px !important;
+  }
+
+}
+
+@media (max-width: 375px) and (max-width: 320px) {
+
+  table td {
+    padding: 1px !important;
+  }
+
+}

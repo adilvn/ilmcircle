@@ -1,0 +1,117 @@
+.VolanteerMain {
+  border-radius: 14px !important;
+  padding-top: 10px;
+  cursor: context-menu;
+  /* Card shadow */
+  padding-left: 100px;
+  padding-right: 50px;
+  padding-top: 10px;
+}
+
+.vacancy-breadcrum {
+  color: var(--tertiary-color-2, #F47B00);
+  text-align: center;
+
+  /* Header 3 */
+  font-family: 'Lato';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 28px */
+  cursor: pointer;
+}
+
+.new-vacancy .inputFields {
+  border-radius: 5px;
+  border: 1px solid var(--light-grey, #e0e0db);
+  background: #fcfcfc;
+
+  /* Shadow/XSM */
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04);
+  color: var(--grey, #6f7373);
+  padding: 8px 7px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.outer-border-vacancy {
+  border: 1px solid var(--light-grey, #e0e0db);
+  border-radius: 5px;
+  padding: 32px;
+  margin-bottom: 20px;
+
+}
+
+.outer-border-vacancy .newv-btn {
+  /* display: inline-block; */
+  text-align: center !important;
+  margin-inline: auto !important;
+  border-radius: 14px;
+  background: #FFB962;
+  padding: 13px 24px;
+
+  color: #252727;
+  text-align: center;
+  font-family: 'Lato';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+
+}
+
+.input-textarea-vc {
+  height: 90px;
+  resize: none;
+  max-height: 200px;
+}
+
+.CancelButtonVacancy {
+  color: #F47B00;
+  text-align: center;
+
+  /* Button */
+  font-family: 'Lato';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 22.4px */
+}
+
+.vacancy-cancle .cancelBtn {
+  color: var(--black, #252727);
+  text-align: center;
+
+  /* Navigation bar */
+  font-family: 'Lato';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 25.2px */
+  width: 185px;
+  height: 55px;
+  border-radius: 14px;
+  border: 2px solid var(--tertiary-color-1, #FFB962);
+  background: var #FCFCFC;
+}
+
+@media screen and (max-width: 768px) {
+  .VolanteerMain {
+    padding-left: 60px !important;
+    padding-right: 10px !important;
+  }
+
+}
+/* @media screen and (max-width: 435px) {
+  .new-vacancy .inputFields {  
+    font-size: 14px;
+  
+    line-height: 100%;
+  }
+} */

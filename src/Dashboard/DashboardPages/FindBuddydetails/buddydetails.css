@@ -1,0 +1,300 @@
+.text-interWord {
+  text-align: justify !important;
+  text-justify: inter-word !important;
+}
+.delete-box-class{
+  height: 40px !important;
+  width: 40px !important;
+}
+
+@media only screen and (max-width: 576px) {
+  .Eventslectures button {
+    margin-bottom: 14px;
+  }
+  .delete-box-class{
+    height: 30px !important;
+    width: 30px !important;
+  }
+}
+
+.teach-Navlist a:hover {
+  color: #ffb962;
+}
+
+.Eventslectures span {
+  color: #ffb962;
+}
+
+.Eventslectures p:hover {
+  background-color: #f3fafc;
+}
+
+.Eventslectures p {
+  padding-inline: 10px;
+  cursor: pointer;
+  color: #404040;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  padding-bottom: 10px;
+}
+
+.Eventslectures p span {
+  color: #ffb962;
+}
+
+.evlecture-btn {
+  border: none;
+  background-color: #ffb962;
+  border-radius: 20px;
+  width: 120px;
+  height: 40px;
+  border: 1px solid #ffb962;
+}
+
+.evlecture-btn2 {
+  background-color: white;
+  border: 1px solid #ffb962;
+}
+
+.Eventslectures .nav-tabs {
+  border: none !important;
+}
+
+.buddy-details-text p {
+  margin-bottom: 5px;
+  color: #404040;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.buddy-details-text span {
+  color: #404040;
+  /* Caption */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.buddy-details-text h6 {
+  color: var(--black, #404040);
+  font-family: "Ysabeau";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.5px;
+}
+
+.tech-details-header img {
+  width: 191px;
+  height: 191px;
+}
+
+.buddy-details-text button {
+  margin-bottom: 12px;
+}
+
+.icon-both li {
+  margin-right: 20px;
+}
+
+.icon-both li svg {
+  width: 30px;
+  height: 30px;
+}
+
+.teach-Navlist {
+  padding-block: 16px;
+  flex-wrap: wrap;
+}
+
+.teach-Navlist a {
+  color: var(--deep-grey, rgba(37, 39, 39, 0.78));
+  text-align: center;
+  font-size: 16px;
+  font-family: "lato";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.box-section-one {
+  border-radius: 14px;
+  border: 1px solid var(--light-grey, #e0e0db);
+  background: #fcfcfc;
+  box-shadow: 0px 4px 16px 0px rgba(138, 150, 154, 0.25);
+  padding: 32px;
+}
+
+.box-section-one small {
+  color: #404040;
+
+  /* Paragraph */
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  /* 25.2px */
+}
+
+.box-section-one p {
+  color: #404040;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+/* .box-section-one span {
+    color: var(--deep-grey, rgba(37, 39, 39, 0.78));
+    font-weight: 500;
+} */
+
+.nav-tabs .nav-link.active {
+  /* Add your active color styles here */
+  background-color: red;
+  color: white;
+}
+
+.Eventslectures .nav-tabs .nav-link.active {
+  background-color: #ffb962;
+  border: 1px solid #ffb962;
+  border-radius: 30px;
+  width: 120px;
+  height: 40px;
+  padding: 0;
+  color: #404040;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.Eventslectures .nav-tabs .nav-link {
+  background-color: #fff;
+  border: 1px solid #ffb962;
+  border-radius: 20px;
+  height: 40px;
+  width: 120px;
+  padding: 0;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  color: #404040;
+}
+
+.buddyDetailsMain {
+  padding-left: 100px;
+}
+
+.MuiBox-root {
+  width: 240px;
+}
+
+@media screen and (max-width: 576px) {
+  .buddyDetailsMain {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .buddy-details-text h6 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .MuiBox-root {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .MuiBox-root {
+    width: 170px;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 1201px) {
+  .MuiBox-root {
+    width: 220px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .buddyDetailsMain {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.css-nnid7-MuiSlider-valueLabel {
+  background-color: #f6e5cf !important;
+  border-radius: 10px !important;
+  color: #404040 !important;
+}
+
+.rangeSliderMUI {
+  color: #f47b00 !important;
+  margin-bottom: 0 !important;
+}
+
+.css-3besu {
+  background-color: #f6e5cf !important;
+  border-radius: 10px !important;
+  color: #404040 !important;
+}
+
+.contactDetailSliderStyle .MuiBox-root.css-1v5z18m {
+  width: 230px !important;
+}
+
+.memoLevel {
+  color: var(--deep-grey, rgba(37, 39, 39, 0.78));
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.buddyDetailsMain .teach-Navlist a {
+  cursor: pointer;
+}
+
+/* Added this code */
+@media (max-width: 375px) and (min-width: 320px) {
+  .MuiBox-root {
+    width: 200px;
+  }
+
+  .removing-padding {
+    padding: 5px !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .removing-padding {
+    padding: 0px !important;
+  }
+
+  .MuiBox-root {
+    width: 150px;
+  }
+}

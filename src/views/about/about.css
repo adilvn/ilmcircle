@@ -1,0 +1,162 @@
+.main-about {
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.main-col {
+  width: 49%;
+}
+
+.main-col h6 {
+  color: #404040;
+  text-align: center;
+
+  /* Header 1 */
+  font-family: "Ysabeau";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 125%;
+  /* 75px */
+  letter-spacing: 2px;
+}
+
+.main-col p {
+  color: var(--black, #404040);
+  text-align: center;
+  font-family: "Lato";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  /* 28px */
+}
+
+.main-col h6 {
+  text-align: center;
+}
+
+.main-col-two {
+  width: 100%;
+  text-align: center;
+}
+
+.mb-text {
+  margin-bottom: 250px !important;
+}
+
+.main-col-two svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.people-box {
+  width: 45%;
+  text-align: center;
+}
+
+.people-box-two {
+  width: 50%;
+}
+
+.people-main {
+  padding-top: 230px;
+  justify-content: center;
+  position: relative;
+}
+
+.people-btn {
+  width: 185px;
+  margin-top: 40px;
+}
+
+.bg-pink {
+  position: absolute;
+  width: 471.94px;
+  height: 341px;
+
+  top: 170px;
+
+  /* left: 84.12px; */
+  bottom: 0px;
+  z-index: -1;
+  background: linear-gradient(
+    82.86deg,
+    #ffe4cc 13.41%,
+    rgba(255, 240, 159, 0.49) 54.07%,
+    rgba(255, 205, 159, 0) 90.05%
+  );
+  filter: blur(103px);
+  border-radius: 112.552px;
+  transform: rotate(13.28deg);
+}
+
+.text-blue {
+  color: #2f90ec;
+}
+
+.bg-pinkHome {
+  position: absolute;
+  width: 471.94px;
+  height: 341px;
+  top: -50px;
+  /* / left: 84.12px; / */
+  bottom: 0px;
+  z-index: -1;
+  background: linear-gradient(
+    82.86deg,
+    #ffe4cc 13.41%,
+    rgba(255, 240, 159, 0.49) 54.07%,
+    rgba(255, 205, 159, 0) 90.05%
+  );
+  filter: blur(103px);
+  border-radius: 112.552px;
+  transform: rotate(13.28deg);
+}
+
+@media (max-width: 768px) {
+  .people-box {
+    width: 62%;
+  }
+}
+
+@media (max-width: 576px) {
+  /* .main-about {
+    padding-top: 20px;
+  } */
+  .text-interWord {
+    text-align: justify !important;
+    text-justify: inter-word !important;
+  }
+  .main-col {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .main-col h6 {
+    text-align: left;
+    font-size: 32px !important;
+  }
+
+  .main-col p {
+    font-size: 15px;
+  }
+
+  .people-main {
+    padding-top: 110px;
+  }
+  .mb-text {
+    margin-bottom: 0px !important;
+  }
+}
+
+@media (max-width: 1023px) {
+  .main-col {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+.aboutUsPara {
+  width: 789px;
+}

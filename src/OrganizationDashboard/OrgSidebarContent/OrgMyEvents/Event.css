@@ -1,0 +1,308 @@
+.createNewEventBtn {
+  border-radius: 14px;
+  background: #ffb962;
+  padding: 16px 24px;
+  color: var(--black, #252727);
+  text-align: center;
+
+  /* Navigation bar */
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 25.2px */
+}
+
+.organizationEventicon svg {
+  border-radius: 3.2px;
+  background: #f6e5cf;
+  padding: 5px;
+}
+
+.createEventOrganizationModal2 {
+  border-radius: 14px;
+  border: 1px solid var(--light-grey, #e0e0db);
+  background: #fcfcfc;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.p-dialog-header-close {
+  display: none !important;
+}
+
+.createEventOrganizationModal .p-dialog-header {
+  display: none !important;
+}
+
+.createEventOrganizationModal .p-dialog-content {
+  border-radius: 14px !important;
+  padding-bottom: 10px;
+}
+
+.p-resizable-handle {
+  display: none !important;
+}
+
+.createEventOrganizationModal .heading {
+  color: var(--black, rgba(37, 39, 39, 0.8));
+
+  /* Header 2 */
+  font-family: "Ysabeau";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  /* 48px */
+  letter-spacing: -0.5px;
+}
+
+.createEventOrganizationModal .steps a,
+.createEventOrganizationModal .steps a:hover {
+  color: var(--tertiary-color-2, #f47b00);
+  cursor: pointer;
+  text-align: center;
+  font-family: "Lato";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0px 5px;
+  line-height: 140%;
+  /* 28px */
+  text-decoration-line: underline;
+}
+
+.createEventOrganizationModal .textHeading {
+  color: var(--black, rgba(37, 39, 39, 0.8));
+
+  /* Caption */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 22.4px */
+}
+
+.createEventOrganizationModal .inputFields {
+  border-radius: 5px;
+  border: 1px solid var(--light-grey, #e0e0db);
+  background: #fcfcfc;
+
+  /* Shadow/XSM */
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04);
+  color: var(--grey, #6f7373);
+  padding: 8px 34px 8px 10px;
+  font-family: "Lato";
+  align-items: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 22.4px */
+}
+
+.mt-16px {
+  margin-top: 16px;
+}
+
+.createEventOrganizationModal .monthDropdown {
+  border-radius: 5px;
+  background: #fcfcfc;
+
+  /* Shadow/XSM */
+  box-shadow: 0px 1px 2px 3px rgba(16, 24, 40, 0.06);
+  color: var(--grey, #6f7373);
+
+  /* Caption */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  height: 250px;
+  overflow-y: auto;
+  font-weight: 400;
+  line-height: 140%;
+  /* 22.4px */
+  z-index: 99;
+}
+
+.createEventOrganizationModal .monthDropdown::-webkit-scrollbar,
+.createEventOrganizationModal .p-dialog-content::-webkit-scrollbar {
+  display: none;
+}
+
+.height-40 {
+  height: 40px !important;
+}
+
+.createEventOrganizationModal .cancelBtn {
+  color: var(--tertiary-color-2, #f47b00);
+
+  /* Button */
+  font-family: 'Lato';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 22.4px */
+  border-radius: 9.545px;
+  background: transparent;
+}
+
+.createEventOrganizationModal .eventUploadFile {
+  border-radius: 14px;
+  border: 2px dashed var(--light-grey, #e0e0db);
+  background: #fcfcfc;
+  padding: 20px 50px;
+}
+
+.createEventOrganizationModal .eventUploadFile h4 {
+  color: var(--deep-grey, rgba(37, 39, 39, 0.8));
+  text-align: center;
+
+  /* Caption */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 22.4px */
+}
+
+.createEventOrganizationModal .eventUploadFile h3 {
+  color: var(--deep-grey, rgba(37, 39, 39, 0.8));
+  text-align: center;
+
+  /* Header 3 */
+  font-family: "Lato";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 28px */
+}
+
+.mt-24px {
+  margin-top: 24px;
+}
+
+.eventOrganization .eventFilterDropdown {
+  border-radius: 8px;
+  border: 1px solid var(--mid-grey, rgba(37, 39, 39, 0.3));
+  background: #fcfcfc;
+  padding: 5px;
+  /* Card shadow/light */
+  width: 300px;
+  position: absolute;
+  z-index: 99;
+  padding: 16px;
+  right: 0;
+  box-shadow: 2px 2px 10px 0px rgba(183, 200, 205, 0.18);
+}
+
+.eventOrganization .eventFilterDropdown .item {
+  color: var(--deep-grey, rgba(37, 39, 39, 0.78));
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 22.4px */
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.eventOrganization .eventFilterDropdown .item:hover {
+  background-color: #f4eeee;
+}
+
+.eventOrganization .eventFilterDropdown .item span {
+  color: var(--deep-grey, rgba(37, 39, 39, 0.78));
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.dateLocationText {
+  color: rgba(37, 39, 39, 0.8);
+
+  /* Caption */
+  font-family: "Lato";
+  font-size: 16px;
+  margin-top: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 22.4px */
+}
+
+
+.radio-input {
+  display: none;
+  /* Hide the default radio button */
+}
+
+.custom-radio {
+  width: 20px;
+  /* Set the width of your custom radio button image */
+  height: 20px;
+  /* Set the height of your custom radio button image */
+  background: url('../../../asserts/images/not.svg') no-repeat center center;
+  /* Set your custom image */
+
+  background-size: cover;
+  /* Adjust this property to fit your image size */
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+  /* Add spacing between the radio button and the text */
+}
+
+/* Style the custom radio button image for the selected state */
+.radio-input:checked+.custom-radio {
+  background: url('../../../asserts/images/signuptick.svg') no-repeat center center;
+  /* Set your custom image */
+  background-size: cover;
+  /* Adjust this property to fit your image size */
+}
+
+@media only screen and (max-width: 425px) {
+  .eventOrganization .eventFilterDropdown {
+    width: 200px;
+    padding: 5px 0px;
+    right: -41px;
+  }
+
+  .eventOrganization .eventFilterDropdown .item {
+    font-size: 12px;
+    line-height: 100%;
+    padding: 4px 11px;
+
+  }
+
+  .createEventOrganizationModal .heading {
+
+    font-size: 32px;
+
+  }
+
+}
+
+
+.class-grey-color {
+
+  color: #cbcbcb !important;
+}
+
+.iMgshadow {
+  -moz-box-shadow: 13px 13px 0px 0px #FFFFFF;
+  -webkit-box-shadow: 13px 13px 0px 0px #FFFFFF;
+  box-shadow: 13px 13px 0px 0px #FFFFFF;
+}

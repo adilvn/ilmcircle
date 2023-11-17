@@ -1,0 +1,157 @@
+.notificationMain .header h6 {
+  color: var(--black, #252727);
+
+  /* Header 2 */
+  font-family: "Ysabeau";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  /* 48px */
+  letter-spacing: -0.5px;
+}
+
+.shadowBorder {
+  border-radius: 5px;
+  background: #fcfcfc;
+  /* Shadow/XSM */
+  cursor: pointer;
+  box-shadow: 0px 1px 2px 3px rgba(16, 24, 40, 0.04);
+
+  color: rgba(37, 39, 39, 0.78);
+  /* Caption */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 22.4px */
+}
+
+.notificationMain .p-checkbox-box {
+  border-radius: 100px;
+  box-shadow: none !important;
+  outline: none !important;
+  border-spacing: none !important;
+}
+
+.selectAll p {
+  color: rgba(37, 39, 39, 0.78);
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 22.4px */
+}
+
+.dashboardCheckBox svg {
+  color: white !important;
+}
+
+.notificationMain .section .item {
+  border-radius: 14px;
+  border: 1px solid #e0e0db;
+  background: #f3f2f2;
+  padding: 16px;
+  margin: 16px 0px;
+  cursor: pointer;
+  /* Card shadow/light */
+  box-shadow: 2px 2px 10px 3px rgba(183, 200, 205, 0.18);
+}
+
+
+.notificationMain .section .item2 {
+  border-radius: 14px;
+  border: 1px solid var(--light-grey, #e0e0db);
+  background: #fcfcfc;
+  padding: 16px;
+  margin: 16px 0px;
+  cursor: pointer;
+  /* Card shadow/light */
+  box-shadow: 2px 2px 10px 3px rgba(183, 200, 205, 0.18);
+}
+
+
+.notificationMain .section .item .date,
+.notificationMain .section .item2 .date {
+  color: var(--secondary-color-3, #2f90ec);
+
+  /* Button */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 22.4px */
+}
+
+.notificationMain .section .item .rplyBtn,
+.notificationMain .section .item2 .rplyBtn {
+  border-radius: 14px;
+  border: 2px solid var(--tertiary-color-1, #ffb962);
+  background: #fcfcfc;
+  padding: 9px 24px;
+  color: var(--black, #252727);
+  text-align: center;
+
+  /* Button */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 22.4px */
+}
+
+.notificationMain .section .item .text,
+.notificationMain .section .item2 .text {
+  color: var(--black, #252727);
+
+  /* Button */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 22.4px */
+}
+
+.notificationMain .section .selectAll {
+  margin-left: 18px;
+}
+
+.allOrangelinks {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.notificationAll {
+  color: #f47b00;
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.notiTxtMsg {
+  color: #f47b00;
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+/* Disable the glow effect on focus for the checkbox */
+.dashboardCheckBox:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+@media screen and (max-width: 576px) {
+  .notificationMain .header h6 {
+    font-size: 32px;
+  }
+}

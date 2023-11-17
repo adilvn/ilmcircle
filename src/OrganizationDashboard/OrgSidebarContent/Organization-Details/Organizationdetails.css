@@ -1,0 +1,18 @@
+.org-form h6 {
+  color: var rgba(37, 39, 39, 0.78);
+  text-align: center;
+
+  /* Header 2 */
+  font-family: "Ysabeau";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 48px */
+  letter-spacing: -0.5px;
+}
+.MuiList-root .MuiListItem-root:nth-child(1) *{
+    color: orange !important;
+}
+.MuiListItemButton-gutters:hover {
+  background-color: #f6e5cf !important;
+}

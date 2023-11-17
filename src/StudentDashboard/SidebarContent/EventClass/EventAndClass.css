@@ -1,0 +1,129 @@
+.AllMainSection {
+  padding-left: 100px;
+  padding-right: 50px;
+}
+
+.classSectionCards .eventCard {
+  border-radius: 14px;
+}
+
+.classSectionCards .eventCard .card-body {
+  padding: 10px 10px 32px 10px;
+}
+
+.goalTask .classSectionCards .eventCard h3 {
+  color: var(--black, #252727);
+
+  /* Header 3 */
+  font-family: "Lato";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.classSectionCards .eventCard p {
+  color: #404040;
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  text-align: start;
+  /* 22.4px */
+}
+
+.classSectionCards .eventCard .categoryName {
+  border-radius: 32.727px;
+  background: var(--courses-bg, #d8f0e7);
+}
+
+.classSectionCards .eventCard .categoryName2 {
+  background: var(--tasks-bg, #eee1ff);
+}
+
+.overlayclassFinished {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  backdrop-filter: blur(4px);
+  width: 100%;
+  border-radius: 14px;
+
+  background: rgba(0, 0, 0, 0.5);
+  /* filter: blur(4px); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.classFinished {
+  color: white;
+  font-size: 20px;
+}
+
+.overlayclassFinished svg:hover {
+  color: #ffff !important;
+}
+
+.cardAttributes {
+  color: var(--grey, #6f7373);
+  font-family: "Lato";
+  font-size: 14.987px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.eventCardDueDate {
+  color: var(--tertiary-color-2, #f47b00);
+  font-family: "Lato";
+  font-size: 14.987px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.eventBtn {
+  border-radius: 54.545px !important;
+  border: 2px solid var(--events-bg, #f5d3d3) !important;
+  background: var(--events-bg, #f5d3d3) !important;
+}
+
+@media (max-width: 767px) {
+  .AllMainSection {
+    padding: 0px 2px 0px 60px;
+  }
+
+  .searchFilterInputOpen {
+    width: 150px !important;
+  }
+
+  .classSectionCards {
+    display: flex;
+    justify-content: center;
+  }
+
+  .eventCard {
+    width: 100% !important;
+  }
+
+  .goalTask .goalTaskHeader h5 {
+    font-size: 32px !important;
+  }
+
+  .goalTask .classSectionCards .eventCard h3 {
+    font-size: 15px;
+  }
+
+  .classSectionCards .eventCard .card-body {
+    margin: 0px;
+  }
+
+  .goalTask .goalTaskHeader {
+    margin: 20px 0px !important;
+  }
+}

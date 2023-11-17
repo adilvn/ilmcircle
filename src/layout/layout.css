@@ -1,0 +1,501 @@
+/* //////////footer ///////// */
+.footer-style {
+  justify-content: space-between;
+  display: flex;
+}
+
+.footer-style strong {
+  color: #0e99c5;
+}
+
+.px-0 {
+  padding-inline: 0px;
+}
+
+.header2-links {
+  display: inline-block;
+  margin-inline: 5px;
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.header2-links:hover {
+  background-color: #ffb962;
+}
+
+.footer-color {
+  padding-block: 60px;
+  background-color: #f3fafc;
+  margin-top: 100px;
+}
+
+.footer-style ul li {
+  padding-block: 8px;
+}
+
+.footer-style ul li a:hover {
+  color: #ffb962;
+}
+
+.footer-style ul li a {
+  color: #6f7373;
+  text-transform: capitalize;
+}
+
+.str-height {
+  padding-bottom: 75px;
+}
+
+.icon-fot li {
+  display: flex;
+  align-items: center;
+}
+
+.icon-fot li svg {
+  margin-right: 6px;
+  color: #6f7373;
+}
+
+.pt-0 {
+  margin-top: 0px;
+}
+
+.pb-0 {
+  margin-bottom: 0px;
+}
+
+.fot p {
+  color: #6f7373;
+}
+
+/* ////////////////// */
+/* Navbar.css */
+/* .list-nav li {
+    list-style: none;
+    margin-inline: 20px;
+    position: relative;
+}
+
+.list-nav li a {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 140%;
+    color: #252727;
+    font-weight: 900;
+    margin: 0px;
+} */
+
+.nav-item {
+  position: relative;
+}
+
+/* .nav-item a:hover::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0.5px;
+  bottom: 0px;
+  left: 0;
+  background-color: #FFB962;
+  padding-block: 1px;
+} */
+
+.activez {
+  color: #252727 !important;
+  position: relative;
+  text-decoration: none;
+}
+
+.activez::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  /* Adjust this value to control the distance between the text and underline */
+  width: 100%;
+  height: 2px;
+  background-color: #ffb962;
+  /* You can change the color of the underline here */
+  opacity: 1;
+}
+
+.profile-btn {
+  width: 120px;
+  height: 55px;
+  font-family: "Lato";
+  font-weight: 700;
+  background: #ffb962;
+  border-radius: 14px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  border: none;
+  font-size: 18px;
+  color: #404040;
+  cursor: pointer;
+}
+
+.HeaderBtn {
+  width: 130px;
+  height: 55px;
+  font-family: "Lato";
+  font-weight: 700;
+  background: #ffb962;
+  border-radius: 14px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  border: none;
+  font-size: 18px;
+  color: #252727;
+  cursor: pointer;
+}
+
+.thankYouContactBtn {
+  width: 132px;
+  height: 40px;
+  font-family: "Lato";
+  font-weight: 700;
+  background: #ffb962;
+  border-radius: 14px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  border: none;
+  cursor: pointer;
+
+  color: var(--black, rgba(37, 39, 39, 0.8));
+  text-align: center;
+  /* Button */
+  font-size: 16px;
+  font-style: normal;
+  /* 22.4px */
+}
+
+.profile-btn:hover {
+  background: #fcfcfc;
+  border: 2px solid #ffb962;
+}
+
+.icon-globel {
+  display: flex;
+  align-items: center;
+}
+
+.icon-globel svg {
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.navbar-logo {
+  font-size: 24px;
+}
+
+.navbar-links .nav-item {
+  /* margin: 5px 15px; */
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links a {
+  color: #333;
+  text-decoration: none;
+}
+
+.navbar-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin-bottom: 5px;
+}
+
+.lang-dropdown {
+  border: none;
+  background: transparent;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  line-height: 140%;
+  color: #252727;
+  font-weight: 700;
+  outline: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.lang-dropdown option {
+  font-size: 16px;
+  background-color: #daede5;
+  height: 300px !important;
+  cursor: pointer !important;
+}
+
+.lang-dropdown option {
+  cursor: pointer !important;
+}
+
+@media (max-width: 1200px) {
+  .navbar-links .nav-item {
+    padding: 5px 10px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-nav {
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .homeNavbarEnd {
+    flex-direction: column !important;
+  }
+
+  .homeNavbarEnd li {
+    margin-bottom: 8px;
+  }
+
+  .navbar-nav li {
+    margin-inline: auto !important;
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .list-nav {
+    flex-direction: column !important;
+    align-items: start !important;
+  }
+
+  .footer-style ul li a {
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 998px) {
+  .footer-style ul li a {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 756px) {
+  .footer-style {
+    flex-direction: column !important;
+  }
+  .px-22 {
+    padding-inline: 2.3rem !important;
+  }
+}
+@media screen and (max-width: 568px) {
+  .px-22 {
+    padding: 0 22px !important;
+  }
+  .footer-color {
+    margin-top: 30px;
+  }
+}
+
+.homeNavbarEnd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+}
+
+/* Style for the links in .homeNavbarEnd li */
+.homeNavbarEnd li a {
+  color: var(--black, #252727);
+  text-align: center;
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 140%;
+  margin: 0;
+  position: relative;
+  /* Add this line to allow positioning for the underline */
+  text-decoration: none;
+}
+
+/* Underline effect for the links in .homeNavbarEnd li */
+.homeNavbarEnd li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  /* Adjust this value to control the distance between the text and underline */
+  width: 100%;
+  height: 2px;
+  border-radius: 10px;
+  background: var(--tertiary-color-1, #ffb962);
+  /* You can change the color of the underline here */
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+/* Underline effect on hover for the links in .homeNavbarEnd li */
+.homeNavbarEnd li a:hover::after {
+  opacity: 1;
+}
+
+/* Underline effect for the active link in .homeNavbarEnd li (when the NavLink's activeClassName is applied) */
+.homeNavbarEnd li a.active-link::after {
+  opacity: 1;
+}
+
+.headerItems li a {
+  color: #252727;
+  text-align: center;
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 140%;
+}
+
+.str-height {
+  color: #0e99c5;
+  /* Text L/Semibold */
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  /* 150% */
+  letter-spacing: -0.1px;
+}
+
+.footer-style a {
+  color: #6f7373;
+
+  /* Text L/Medium */
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 150% */
+  letter-spacing: -0.1px;
+}
+
+.footer-style p {
+  color: #6f7373;
+
+  /* Text L/Regular */
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  letter-spacing: -0.1px;
+}
+
+/* Style for the links in .navbarDashboardMain ul li */
+.navbarDashboardMain ul li a {
+  color: rgba(37, 39, 39, 0.78);
+  text-align: center;
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 140%;
+  /* 25.2px */
+  position: relative;
+  /* Add this line to allow positioning for the underline */
+  text-decoration: none;
+}
+
+/* Underline effect for the active link in .navbarDashboardMain ul li (when the NavLink's activeClassName is applied) */
+.navbarDashboardMain ul li a.active-link::after {
+  opacity: 1;
+}
+
+.dropdown-content a {
+  padding: 6px 16px !important;
+  text-decoration: none !important;
+  display: block !important;
+  text-align: start !important;
+  /* Caption */
+  font-family: "Lato" !important;
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 140% !important;
+}
+
+/* The CSS style should be the same as mentioned in the previous answer */
+.underline-on-hover {
+  position: relative;
+  text-decoration: none;
+}
+
+.underline-on-hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  /* Adjust this value to control the distance between the text and underline */
+  width: 100%;
+  height: 2px;
+  border-radius: 10px;
+  background: var(--tertiary-color-1, #ffb962);
+
+  /* You can change the color of the underline here */
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.underline-on-hover:hover::after {
+  opacity: 1;
+}
+.text-justify-inter-words{
+  text-align: justify;
+  text-justify: inter-word;
+}
+.help-center h6 {
+  color: #272d37;
+  text-align: center;
+  font-family: "Ysabeau";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.5px;
+}
+.main-col2 h6 {
+  color: #404040;
+  text-align: center;
+  font-family: "Ysabeau";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 125%;
+  letter-spacing: 2px;
+}
+
+
+@media (max-width: 576px) {
+
+  .help-center h6 {
+    font-size: 30px !important;
+  }
+  .main-col2 h6 {
+    text-align: left;
+    font-size: 32px !important;
+  }
+
+}

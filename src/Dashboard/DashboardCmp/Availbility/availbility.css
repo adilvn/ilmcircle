@@ -1,0 +1,87 @@
+.shed-btn {
+    width: 100%;
+    height: 43px;
+    background: #FCFCFC;
+    border: 1px solid #E0E0DB;
+    font-family: 'lato';
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 5px;
+    font-size: 15px;
+    color: #6F7373;
+}
+
+.shed-btn-blue {
+    background-color: #2F90EC !important;
+    color: #ffff !important;
+}
+
+.shed-text tr td {
+    color: #2F90EC;
+}
+
+.orange-link {
+    color: #FFB962 !important;
+}
+
+.light-color {
+    color: #6F7373;
+}
+
+.shed-month input {
+    height: 45px;
+    border-left: 1px solid #e0e0db !important;
+    border-bottom: 1px solid #e0e0db !important;
+    border: none;
+    outline: none;
+    padding-inline: 5px;
+    color: #6F7373;
+
+}
+
+@media screen and (max-width: 600px) {
+    .scrollable-div {
+        overflow-x: auto !important;
+    }
+
+    .shed-btn {
+        font-size: 8px !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .scrollable-div {
+        overflow-x: auto !important;
+    }
+}
+
+.scrollable-div td {
+    text-align: center;
+}
+
+.scrollable-div tr {
+    border: none;
+}
+
+.scrollable-div table {
+    border: none !important;
+}
+
+.fullSchedule {
+    align-items: center;
+    color: #f47b00 !important;
+    font-family: "Lato";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.gmttxt {
+    align-items: center;
+    color: #f47b00 !important;
+    font-family: "Lato";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}

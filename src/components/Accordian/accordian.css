@@ -1,0 +1,98 @@
+.rc-accordion-toggle {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    transition: 0.3s;
+    padding-inline: 20px;
+    height: 49px;
+    border: 1px solid rgba(37, 39, 39, 0.3);
+    border-radius: 6px;
+}
+
+.rc-accordion-toggle.active {
+    background-color: #F3FAFC;
+}
+
+.rc-accordion-toggle.active .rc-accordion-icon {
+    transform: rotate(90deg);
+    color: red;
+}
+
+.rc-accordion-card {
+    border-radius: 6px;
+    overflow: hidden;
+
+}
+
+.rc-accordion-card:last-child {
+    margin-bottom: 0;
+}
+
+.rc-accordion-title {
+    font-family: 'Lato' !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    position: relative;
+    color: #475F7B;
+    transition: 0.3s;
+    margin-block: auto;
+
+}
+
+.rc-accordion-header {
+    margin-block: 8px !important;
+}
+
+.rc-accordion-toggle.active .rc-accordion-title {
+    color: #475F7B;
+}
+
+.rc-accordion-icon {
+    position: relative;
+    top: 2px;
+    color: #475F7B;
+    transition: 0.35s;
+    font-size: 12px;
+}
+
+.rc-accordion-icon2 {
+    position: relative;
+    top: -1px;
+    color: #475F7B;
+    transition: 0.35s;
+    font-size: 12px;
+}
+
+.rc-accordion-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 15px;
+    background-color: #F3FAFC;
+    border: 1px solid rgba(37, 39, 39, 0.3);
+    border-radius: 6px;
+
+}
+
+.rc-accordion-body p {
+    margin-bottom: 0;
+    line-height: 24px;
+    color: #252727C7;
+    font-family: 'Lato' !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.rc-collapse {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.35s ease;
+
+}
+
+.rc-collapse.show {
+    height: auto;
+}

@@ -1,0 +1,87 @@
+.allProjectsMain .mainText {
+  color: #404040;
+
+  /* Header 3 */
+  font-family: "Lato";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 28px */
+}
+.allProjectsMain .subMain {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+.shadowBg {
+  border-radius: 5px;
+  border: 1px solid #e0e0db;
+  background: #fcfcfc;
+
+  /* Shadow/XSM */
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04);
+}
+.contactPhoneBox {
+  padding: 12px 16px;
+}
+.contactPhoneBox:focus-visible,
+.contactPhoneBox:focus,
+.allEditInput:focus-visible {
+  border: 1px solid #e0e0db !important;
+  outline: none !important;
+}
+.mainContent {
+  margin-top: 10px;
+  padding: 12px 16px;
+  color: rgba(37, 39, 39, 0.8);
+
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 25.2px */
+}
+.allProjectsMain .bottomSection h3 {
+  color: #404040;
+  /* Navigation bar */
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 25.2px */
+  margin-bottom: 16px;
+}
+
+.bottomContext {
+  padding: 16px 24px;
+}
+.projectHeading {
+  color: rgba(37, 39, 39, 0.8);
+  /* Header 3 */
+  font-family: "Lato";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 28px */
+}
+.bottomSection .projectTime {
+  color: var(--deep-grey, rgba(37, 39, 39, 0.8));
+
+  /* secondary text */
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+  letter-spacing: -0.1px;
+}
+@media screen and (max-width: 425px) {
+  .allProjectsMain .mainText {
+    font-size: 18px; 
+    line-height: 100%; 
+  }
+  .mainContent {
+    font-size: 16px;
+    line-height: 100%; 
+  }
+}
+

@@ -1,0 +1,446 @@
+/* ////////profile.css/////////////// */
+.profile-header {
+  padding-block: 50px;
+}
+
+.profile-header h6 {
+  color: #404040;
+
+  /* Header 2 */
+  font-family: "Ysabeau";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  /* 48px */
+  letter-spacing: -0.5px;
+}
+
+.Personal-text {
+  color: #404040;
+  font-family: "Ysabeau";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  /* 32px */
+  letter-spacing: -0.5px;
+}
+
+.edit-pen {
+  position: relative;
+}
+
+.edit-pen-el svg {
+  position: absolute;
+  top: 60%;
+  left: 54%;
+  cursor: pointer;
+}
+
+.availDays {
+  color: var(--black, #404040) !important;
+
+  /* Text S/Medium */
+  font-family: "Inter" !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: 20px !important;
+  /* 142.857% */
+  letter-spacing: -0.1px !important;
+}
+
+.eye-style {
+  margin-top: 10px;
+  cursor: pointer;
+  color: #404040;
+  /* Caption */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 22.4px */
+}
+
+.profile-btn {
+  background: #ffb962;
+  border: 2px solid #ffb962;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  width: 185px;
+  height: auto;
+  padding: 10px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.profile-btn:hover {
+  background: #f6e5cf;
+}
+
+.profile-btn2 {
+  background: #ffb962;
+  border: 2px solid #ffb962;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  width: 185px;
+  height: auto;
+  padding: 10px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.profile-btn2:hover {
+  background: #f6e5cf;
+}
+
+.profile-btn-white {
+  background: #fcfcfc !important;
+}
+
+.profileOptions *::-webkit-scrollbar {
+  display: none !important;
+}
+
+.profile-btn-white:hover {
+  background: #ffb962 !important;
+}
+
+.information-box {
+  border: 1px solid #e0e0db;
+  border-radius: 13px;
+  margin-bottom: 50px;
+  padding-block: 30px;
+}
+
+#select-style {
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 16px;
+  gap: 8px;
+  width: 100%;
+  height: 46px;
+  background: #fcfcfc;
+  border: 1px solid #e0e0db;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 5px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  outline: none;
+  font-size: 16px;
+}
+
+#select-style option {
+  padding-block: 20px;
+}
+
+.Text-box textarea {
+  height: 80px !important;
+}
+
+.Text-boxProfile textarea {
+  height: 70px !important;
+}
+
+.buddy-range input::after {
+  content: "1 juzz";
+  position: absolute;
+  left: -48px;
+  color: #000;
+  font-size: 15.4px;
+  font-family: "lato";
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.11px;
+  top: 6px;
+}
+
+.buddy-range input::before {
+  content: "30 juzz";
+  position: absolute;
+  right: -58px;
+  color: #000;
+  font-size: 15.4px;
+  font-family: "lato";
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.11px;
+  top: 6px;
+}
+
+.avail-time button small {
+  color: #404040;
+  /* secondary text */
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  margin-top: 8px;
+  /* 157.143% */
+  letter-spacing: -0.1px;
+}
+
+.avail-time button span {
+  font-size: 15px;
+}
+
+.avail-time button {
+  width: 120px;
+  height: 67px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  line-height: 29px;
+  background: transparent;
+  border: 1px solid #e0e0db;
+  font-family: "lato";
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.avail-box button {
+  width: 120px;
+  height: 67px;
+  background: #fcfcfc;
+  border: 1px solid #e0e0db;
+  cursor: pointer;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 5px;
+
+  color: #404040;
+
+  /* Button */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 22.4px */
+}
+
+.both-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+
+.both-btn button {
+  margin: 10px;
+}
+
+.w30 {
+  width: 35%;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1024px) {
+  .both-btn {
+    justify-content: center;
+  }
+
+  .profile-text h6 {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .profile-btn {
+    width: 135px;
+    /* height: 40px; */
+    font-size: 16px !important;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+
+  .profile-btn2 {
+    width: 135px;
+    /* height: 40px; */
+    font-size: 16px !important;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+
+  .feed-btn {
+    width: 185px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .profile-btn {
+    width: 135px;
+    /* height: 40px; */
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+
+  .profile-btn2 {
+    width: 135px;
+    /* height: 40px; */
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .both-btn {
+    justify-content: center;
+  }
+
+  .Personal-text {
+    margin-inline: 18px !important;
+  }
+
+  .profile-btn {
+    width: 125px;
+    /* height: 35px; */
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+
+  .profile-btn2 {
+    width: 125px;
+    /* height: 35px; */
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+
+  .feed-btn {
+    width: 185px;
+  }
+
+  .set-cross-icon {
+    justify-content: end;
+    align-items: center;
+    padding-top: 20px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+  .profile-btn {
+    width: 100%;
+    height: 50px;
+  }
+
+  .profile-btn2 {
+    width: 60%;
+    height: 50px;
+  }
+
+  .profile-btn {
+
+    padding: 11px 5px;
+    font-size: 14px !important;
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+  .profile-btn {
+    width: 100%;
+    height: 42px;
+  }
+
+  .profile-btn2 {
+    width: 50%;
+    height: 42px;
+  }
+}
+
+.aboutMeText {
+  color: #404040 !important;
+  /* Caption */
+  font-family: "Lato" !important;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: 140%;
+  /* 22.4px */
+}
+
+.greenCheckBox .p-highlight {
+  /* background-color: #0ed381 !important;
+  border: #0ed381 !important; */
+  box-shadow: none !important;
+}
+
+/* .greenCheckBox .p-checkbox-box {
+  border: #0ed381 !important;
+} */
+
+.form-main .form-select {
+  background-size: auto !important;
+}
+
+.stdropdown-container input {
+  padding: 12px 16px;
+  gap: 8px;
+  width: 100%;
+  height: 46px;
+  background: #fcfcfc;
+  border: 1px solid #e0e0db;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 5px;
+  flex: none;
+  order: 1;
+  color: #404040;
+  font-family: "Lato";
+  align-self: stretch;
+  flex-grow: 0;
+  outline: none;
+  font-size: 16px;
+}
+
+.stdropdown-tool {
+  display: none;
+}
+
+.stdropdown-container {
+  border: none !important;
+}
+
+.categoryDropDown::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+@media only screen and (max-width: 576px) {
+  .profile-btn {
+    /* width: 88px !important; */
+    padding: 6px 1px;
+    font-size: 16px !important;
+    margin-right: 5px;
+  }
+
+  .profile-btn2 {
+    /* width: 88px !important; */
+    /* padding: 2px; */
+    font-size: 12px !important;
+    margin-right: 5px;
+  }
+
+  .custom-upload-btn {
+    width: 140px !important;
+  }
+
+}

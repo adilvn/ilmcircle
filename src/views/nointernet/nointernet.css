@@ -1,0 +1,11 @@
+.nointerimage {
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  .main-btn-2 {
+      width: 132px;
+      height: 38px;
+    }
+}

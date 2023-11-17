@@ -1,0 +1,104 @@
+.card-design {
+  background: #f3fafc;
+  box-shadow: 2px 4px 15px rgba(167, 185, 190, 0.4);
+  border-radius: 14px;
+  margin: 15px;
+}
+
+.card-body {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-block: 50px;
+}
+
+.card-body p {
+  text-align: center;
+  margin: 0px;
+}
+
+.bottom-card {
+  justify-content: center;
+}
+
+.bottom-card span {
+  padding: 10px;
+}
+
+.pading {
+  padding-inline: 12px;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+.rating {
+  text-align: center;
+  padding-block: 30px;
+}
+
+.rate-color {
+  color: #ffae43;
+  font-size: 22px !important;
+}
+
+.rate-color2 {
+  color: #6f7373;
+  font-size: 22px !important;
+}
+
+.slick-slide.slick-current {
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+/* Move the active box to the top */
+.slick-slide.slick-current::before {
+  content: "" !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: -1 !important;
+}
+
+.slick-center {
+  margin-top: -50px;
+}
+
+@media (max-width: 1180px) {
+  .card-body p {
+    font-size: 14px !important;
+  }
+
+  .bottom-card small {
+    font-size: 12px !important;
+  }
+}
+
+.card-design p {
+  color: #252727;
+  text-align: center;
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+@media (max-width: 578px) {
+  .pading {
+    padding-inline: 0px;
+  }
+  .rating {
+    padding-block: 10px;
+  }
+  .card-body {
+    padding-block: 10px;
+  }
+  .card-body p {
+    font-size: 12px;
+  }
+}

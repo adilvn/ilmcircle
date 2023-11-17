@@ -1,0 +1,470 @@
+.cultureEvent h5 {
+  color: var(--deep-grey, rgba(37, 39, 39, 0.8));
+  font-family: "Ysabeau";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.5px;
+}
+
+.eventCultureMain {
+  border-radius: 14px;
+  border: 1px solid var(--light-grey, #e0e0db);
+  background: #fcfcfc;
+
+  /* Card shadow/light */
+  box-shadow: 2px 2px 10px 0px rgba(183, 200, 205, 0.18);
+}
+
+.eventCultureMain .eventCol {
+  border-bottom: 1px solid var(--light-grey, #e0e0db);
+  display: flex;
+  align-items: center;
+  margin: 32px;
+}
+
+.eventCultureMain .eventCol img {
+  width: 52px;
+  height: 52px;
+}
+
+.eventCultureMain .eventCol .eventDate {
+  color: var(--tertiary-color-2, #f47b00);
+
+  /* Button */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.eventCultureMain .eventCol .eventText {
+  color: var(--black, rgba(37, 39, 39, 0.8));
+  /* Button */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+/* About Tab */
+.cultureEvent .aboutTabCulture,
+.cultreBgAll {
+  border-radius: 14px;
+  border: 1px solid var(--light-grey, #e0e0db);
+  background: #fcfcfc;
+
+  /* Card shadow/light */
+  box-shadow: 2px 2px 10px 0px rgba(183, 200, 205, 0.18);
+}
+
+.cultureEvent .aboutTabCulture p {
+  color: rgba(37, 39, 39, 0.8);
+  /* Paragraph */
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  padding: 10px;
+  font-weight: 500;
+  line-height: 140%;
+  /* 25.2px */
+}
+
+/* Library */
+
+.cultureEvent .libraryCol {
+  padding: 16px 0px;
+  align-items: center;
+  border-bottom: 1px solid var(--light-grey, #e0e0db);
+  margin-left: 0px;
+  /* Card shadow/light */
+}
+
+.libraryCol img {
+  width: 40px;
+  height: 40px;
+}
+
+.libraryCol .libraryContent {
+  color: #000;
+  word-break: break-all;
+  /* Button */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.libraryCol .libraryText {
+  color: #000;
+
+  /* secondary text */
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+}
+
+/* Vovancy */
+.vovancy {
+  margin: 32px;
+}
+
+.vavncyHeading {
+  color: var(--deep-grey, rgba(37, 39, 39, 0.8));
+  font-family: "Ysabeau" !important;
+  font-size: 30px !important;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  /* 30px */
+  letter-spacing: -0.5px;
+}
+
+.topTextVovancy {
+  color: var(--deep-grey, rgba(37, 39, 39, 0.8));
+
+  /* Paragraph */
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.vacanciesTotal {
+  color: #404040;
+
+  /* Navigation bar */
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 25.2px */
+}
+
+.vovancy .vovancySub h5 {
+  color: var(--black, rgba(37, 39, 39, 0.8));
+  /* Header 3 */
+  font-family: "Lato";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--light-grey, #e0e0db);
+}
+
+.fundingBgImage {
+  background-image: url("../../../../asserts/images/funding.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 452.54px;
+  height: 322px;
+}
+
+.fundingBgImage h4 {
+  color: #404040;
+  text-align: center;
+  font-family: "Lato";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  /* 44.8px */
+}
+
+.vovancy .vovancySub .vovancyDate {
+  color: var(--deep-grey, rgba(37, 39, 39, 0.8));
+  text-align: right;
+  padding: 10px 0px;
+  margin-bottom: 0px;
+  /* secondary text */
+  font-family: "Lato";
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+}
+
+.vovancy .vovancySub .vovancyDateName {
+  color: var(--deep-grey, rgba(37, 39, 39, 0.8));
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  /* 137.5% */
+  letter-spacing: -0.1px;
+}
+
+.vovancy .vovancySub h2 {
+  color: var(--black, rgba(37, 39, 39, 0.8));
+  margin-top: 16px;
+  /* Button */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.vovancySub .vovancyText {
+  color: var(--deep-grey, rgba(37, 39, 39, 0.8));
+
+  /* Caption */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.vovancySub .vovancyIcon {
+  color: var(--tertiary-color-2, #f47b00);
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+}
+
+/* Project */
+.cultureProject,
+.innerCultureProject {
+  margin: 20px;
+}
+
+.innerCultureProject {
+  gap: 2;
+}
+
+.cultureProject .topText {
+  color: var(--deep-grey, rgba(37, 39, 39, 0.8));
+
+  /* Paragraph */
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.cultureProject .subCultureProject {
+  border-radius: 8px;
+  border: 1px solid var(--light-grey, #e0e0db);
+  background: #fcfcfc;
+}
+
+.cultureProject .innerCultureProject img {
+  width: 216px;
+  height: 216px;
+}
+
+.innerCultureProject h3 {
+  color: var(--black, rgba(37, 39, 39, 0.8));
+  font-family: "Ysabeau";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.5px;
+}
+
+.innerCultureProject .subText {
+  color: var(--deep-grey, rgba(37, 39, 39, 0.8));
+
+  /* Caption */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.innerCultureProject .vovancyIcon {
+  color: var(--tertiary-color-2, #f47b00);
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+}
+
+.projectCultureDown p {
+  color: rgba(37, 39, 39, 0.8);
+
+  /* Navigation bar */
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.projectCultureDown span {
+  color: var(--secondary-color-3, #2f90ec);
+
+  /* Navigation bar */
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+  .innerCultureProject h3 {
+    font-size: 22px;
+  }
+
+  .innerCultureProject .subText {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  .cultureEvent .aboutTabCulture p {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .eventCultureMain .eventCol {
+    margin: 0px;
+    flex-direction: column-reverse;
+  }
+
+  .fundingBgImage {
+    background-image: url("") !important;
+  }
+
+  .fundingBgImage h4 {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 776px) {
+  .eventCultureMain .eventCol {
+    margin: 20px;
+    flex-direction: row;
+  }
+
+  .cultureProject,
+  .innerCultureProject {
+    margin: 20px;
+  }
+
+  .innerCultureProject h3 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 576px) {
+  .cultureEvent .aboutTabCulture p {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .eventCultureMain .eventCol {
+    margin: 0px;
+    flex-direction: column-reverse;
+  }
+
+  .cultureProject,
+  .innerCultureProject {
+    margin: 10px;
+  }
+
+  .innerCultureProject h3 {
+    font-size: 23px;
+  }
+}
+
+.donateModalForm label {
+  color: #252727;
+
+  /* Navigation bar */
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 25.2px */
+}
+
+.donationModalInput {
+  padding: 12px 44px 12px 24px !important;
+}
+
+.donateHeadText {
+  color: #252727;
+  text-align: center;
+
+  /* Header 3 */
+  font-family: "Lato";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 28px */
+}
+
+.donateOrderSummary {
+  margin-top: 15px !important;
+}
+
+.donateOrderSummary p {
+  color: var(--black, #252727);
+
+  /* Caption */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 0;
+  line-height: 140%;
+  /* 22.4px */
+}
+
+.donateOrderSummary sub {
+  color: #2f90ec;
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  margin-bottom: 0;
+  /* 22.4px */
+}
+
+.donateOrderSummary h5 {
+  color: var(--black, #252727);
+
+  /* Navigation bar */
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  margin-bottom: 0;
+  /* 25.2px */
+}
+
+.text-interWord {
+  text-align: justify !important;
+  text-justify: inter-word !important;
+}

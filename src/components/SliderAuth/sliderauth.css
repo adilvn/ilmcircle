@@ -1,0 +1,288 @@
+.slide-box-one {
+  padding: 5px;
+}
+
+.slide-box-two {
+  padding: 5px;
+}
+
+.slide-box-three {
+  padding: 5px;
+}
+
+.slide-box-body strong {
+  font-family: "Ysabeau";
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: -0.5px;
+  color: #404040;
+}
+
+.bottom-slide-box input {
+  background: #ffffff !important;
+  border: 2px solid rgba(37, 39, 39, 0.3) !important;
+  border-radius: 20px !important;
+  cursor: pointer;
+}
+
+.iam {
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.bottom-slide-box {
+  width: 100%;
+  height: 72px;
+  background: #fcfcfc;
+  border: 1px solid #eaebf0;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 20px;
+  cursor: pointer;
+  margin-block: 20px;
+}
+
+.bottom-slide-boxli:last-child {
+  justify-content: end !important;
+}
+
+.bottom-slide-box:hover {
+  background-color: #f3fafc;
+}
+
+.svg-style {
+  display: flex !important;
+  align-items: center;
+}
+
+.svg-style svg {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.bottom-sign-btn {
+  width: 100%;
+}
+
+.point {
+  cursor: pointer;
+}
+
+.point:hover {
+  /* color: #FFB962; */
+  color: #2f90ec;
+}
+
+.dot-style-slider .slick-dots li {
+  width: 15px;
+  height: 15px;
+  border-radius: 100px;
+  background: #e0e0db;
+  margin-bottom: 30px;
+}
+
+.dot-style-slider .slick-dots {
+  bottom: -45px !important;
+}
+
+.paymentCode .inputContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.paymentCode .stripeInput {
+  padding-right: 30px;
+  /* Make space for the icon */
+}
+
+.paymentCode .inputIcon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 20px;
+  /* Adjust the width of the icon as needed */
+  height: 20px;
+  /* Adjust the height of the icon as needed */
+}
+
+.dot-style-slider .slick-dots li button:before {
+  visibility: hidden;
+}
+
+.dot-style-slider .slick-dots li.slick-active {
+  width: 15px;
+  height: 15px;
+  background: #2f90ec;
+  border-radius: 100px;
+}
+
+.dot-style-slider .slick-dots li button:before {
+  visibility: hidden;
+}
+
+.dot-style-slider .slick-next {
+  display: none !important;
+}
+.verificatonTitleText {
+  color: var(--tertiary-color-2, #f47b00) !important;
+  text-align: center;
+
+  /* Header 2 */
+  font-family: "Ysabeau" !important;
+  font-size: 48px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: 100%; /* 48px */
+  letter-spacing: -0.5px;
+}
+.dot-style-slider .slick-prev {
+  display: none !important;
+}
+
+.two-bottom {
+  margin-top: 90px;
+  margin-bottom: 15px;
+}
+
+.mb-slide {
+  margin-bottom: 50px;
+  color: #404040;
+  text-align: center;
+
+  /* Navigation bar */
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 25.2px */
+}
+
+.sigup-btun {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 17px;
+}
+
+.w-35 {
+  width: 35%;
+}
+
+.signUpPricePage {
+  padding: 16px 32px;
+  background: #fcfcfc;
+  border: 1px solid #eaebf0;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-block: 20px;
+}
+
+.priceLabelSignUp {
+  color: #404040;
+  font-family: "Lato";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 140%;
+  /* 44.8px */
+}
+
+.dot-style-slider h6 {
+  color: #404040;
+  text-align: center;
+
+  /* Header 1 */
+  font-family: "Ysabeau";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 125%;
+  /* 75px */
+  letter-spacing: 2px;
+}
+
+.dot-style-slider span {
+  color: #404040;
+
+  /* Header 3 */
+  font-family: "Lato";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 28px */
+}
+
+.rounded-circle .p-checkbox-box {
+  border-radius: 100px !important;
+}
+
+@media (max-width: 400px) {
+  .dot-style-slider h6 {
+    font-size: 40px;
+  }
+
+  .slide-box-body strong {
+    font-size: 22px;
+  }
+}
+
+.priceLabelSignUp span {
+  color: #24835a;
+
+  /* Button */
+  font-family: "Lato";
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 22.4px */
+}
+
+.completeRegBtn {
+  color: #f47b00;
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  text-decoration-line: underline;
+}
+
+.regDot {
+  color: #404040 !important;
+  text-align: center;
+
+  /* Paragraph */
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  /* 25.2px */
+}
+
+.subcriptionPriceTxt2 {
+  font-weight: 500 !important;
+}
+
+.subcriptionPriceTxt {
+  color: #404040;
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 25.2px */
+}

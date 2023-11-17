@@ -1,0 +1,493 @@
+.goalTask .goalTaskHeader {
+  margin: 48px 0px;
+}
+
+.goalTask .goalTaskHeader h5 {
+  color: var(--black, #404040);
+  /* text-align: center; */
+
+  /* Header 2 */
+  font-family: "Ysabeau";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.5px;
+}
+
+/* searchbar */
+.goalTaskHeader .navSide .searchFilterInput {
+  width: 40px;
+  border: none;
+  opacity: 0;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.goalTaskHeader .navSide {
+  align-items: center;
+}
+
+.goalTaskHeader .navSide .searchSvg {
+  position: absolute;
+  left: 12px;
+  top: 15px;
+  color: #404040;
+}
+
+.drop-down-width {
+  width: 240px;
+}
+
+.goalTaskHeader .navSide .searchFilterInputOpen,
+.searchFilterInputOpen:focus {
+  width: 300px;
+  border: 1px solid #40404038;
+  border-radius: 10px;
+  opacity: 1;
+  transition: all 0.7s ease-in;
+  font-size: 20px;
+  padding-top: 10px;
+  margin-top: -2;
+  padding-bottom: 10px;
+  margin-right: 20px;
+  padding-left: 45px;
+  padding-right: 10px;
+  outline: 0;
+  color: #404040;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+
+  .goalTaskHeader .navSide .searchFilterInputOpen,
+  .searchFilterInputOpen:focus {
+    width: 220px;
+  }
+}
+
+.goalTaskHeader .navSide img {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.goalTaskHeader .navSide .goalSectionIcons {
+  padding: 8px;
+}
+
+.goalTaskHeader .navSide .goalSectionIcons:hover {
+  color: #404040;
+  background-color: #f6e5cf;
+  border-radius: 10px;
+}
+
+.goalTaskHeader .navSide .goalSectionIcons img:hover,
+svg:hover {
+  color: #404040 !important;
+}
+
+.goalTaskDoneSection .doneBtn {
+  border-radius: 54.545px;
+  background: #c5e4d7;
+  border: 1px solid #c5e4d7;
+  color: var(--black, #404040);
+  text-align: right;
+
+  /* Navigation bar */
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.goalTaskDoneSection .doneBtn .span {
+  background-color: #2fa070;
+  padding: 5px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.goalTask .newItemBtn {
+  border-radius: 14px !important;
+  border: 2px solid var(--tertiary-color-1, #ffb962) !important;
+  background: #f6e5cf !important;
+  color: var(--deep-grey, rgba(37, 39, 39, 0.78));
+  text-align: center;
+
+  /* Button */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.goalTask .newItemBtn {
+  color: rgba(37, 39, 39, 0.78) !important;
+}
+
+.goalTask {
+  border-top: 1px solid var(--light-grey, #e0e0db);
+  /* border-bottom: 1px solid var(--light-grey, #e0e0db) !important; */
+  background: #fcfcfc;
+}
+
+.goalTask .doneSectionTable .p-checkbox-box {
+  border-radius: 100px;
+  box-shadow: none;
+  outline: none;
+  border-spacing: none;
+}
+
+.p-toolbar {
+  background: transparent;
+  border: none;
+}
+
+.p-datatable .p-datatable-thead>tr>th {
+  border-bottom: 1px solid #e0e0db;
+  background-color: #fcfcfc !important;
+  color: var(--black, #404040);
+  text-align: center;
+  /* Button */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  text-align: center;
+}
+
+.p-datatable .p-datatable-tbody>tr>td {
+  color: var(--black, #404040);
+  text-align: center;
+
+  /* secondary text */
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+}
+
+.p-datatable .p-column-header-content {
+  justify-content: center;
+}
+
+.doneSectionTable .card {
+  border: none;
+}
+
+.goalTaskDoneSection .Inprogress {
+  background: #d4e8ee;
+}
+
+.goalTaskDoneSection .isstarted {
+  background: #e0e0db;
+}
+
+.goalTaskDoneSection .Inprogress .span {
+  background-color: #2f90ec !important;
+}
+
+.goalTaskDoneSection .isstarted .span {
+  background-color: rgba(37, 39, 39, 0.78) !important;
+}
+
+.goalTaskDoneSection .innerTableCol {
+  color: var(--deep-grey, rgba(37, 39, 39, 0.78));
+  text-align: right;
+
+  /* tertiary text */
+  font-family: "Lato";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+  border-radius: 40px;
+  /* background: var(--secondary-color-4, #d4e8ee); */
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.goalTaskDoneSection .innerTableCol .span {
+  background-color: #2fa070;
+
+  padding: 3px !important;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.goalTaskDoneSection .innerTableColBtnHead {
+  display: flex;
+  justify-content: center;
+}
+
+/* Modal */
+.addNewTaskModal {
+  border-radius: 14px !important;
+  background: #fcfcfc !important;
+  padding-top: 10px;
+  cursor: context-menu;
+  /* Card shadow */
+  box-shadow: 0px 4px 16px 0px rgba(138, 150, 154, 0.25) !important;
+}
+
+/*  */
+.addNewTaskModal .p-dialog-title {
+  color: var(--mid-grey, rgba(37, 39, 39, 0.3));
+  cursor: context-menu;
+
+  /* Header 2 */
+  font-family: "Ysabeau";
+  font-size: 48px !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: 100%;
+  letter-spacing: -0.5px;
+}
+
+.addNewTaskModal .p-dialog-header {
+  cursor: context-menu !important;
+  align-items: center;
+}
+
+.addNewTaskModal .p-dialog-header-icons {
+  display: none;
+}
+
+.addNewTaskModal .p-dialog-header-icons-custom * {
+  /* width: 25px !important;
+  height: 25px;
+  cursor: pointer; */
+}
+
+.addNewTaskModal .p-dialog-header-icons-custom svg:hover {
+  color: rgba(37, 39, 39, 0.3) !important;
+}
+
+.addNewTaskModal .statusField {
+  display: flex;
+  justify-content: space-between;
+  color: var(--grey, #6f7373);
+
+  /* Caption */
+  font-family: "Lato";
+  padding-left: 10px !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  padding-top: 16px;
+  border-radius: 2px;
+
+  border: 1px solid #80808061;
+}
+
+.fs-20 {
+  font-size: 20px !important;
+}
+
+.fs-16 {
+  font-size: 16px !important;
+}
+
+.categroyDropDown {
+  border: 1px solid grey;
+  border-radius: 8px;
+  padding: 5px;
+
+  border: 1px solid #80808061;
+}
+
+.categroyDropDown .categoryGoal {
+  margin: 5px 0px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.categroyDropDown .categoryGoal:hover {
+  background-color: #2f90ec3b;
+  color: black;
+}
+
+#descriptionGoalTask,
+#comments,
+#comments:focus,
+#descriptionGoalTask:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 1px solid #2f90ec3b;
+  border-radius: 5px;
+}
+
+.addNewTaskModal .p-dialog-content:last-of-type {
+  border-radius: 14px !important;
+  padding: 0px 50px;
+}
+
+.p-dialog-mask {
+  z-index: 9999 !important;
+}
+
+.p-dialog .p-dialog-header {
+  padding: 0.8rem 40px;
+}
+
+/* .iconModal:hover {
+  background-color: yellow;
+} */
+.commentIcon {
+  position: absolute;
+  right: 12px;
+  bottom: 9px;
+}
+
+.negativePadding {
+  margin-left: -10px;
+}
+
+.width-class {
+  width: 32rem !important;
+}
+
+.goalTaskDoneSection label {
+  color: #404040;
+
+  /* Caption */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 22.4px */
+}
+
+@media (max-width: 576px) {
+  .width-class {
+    width: 20rem !important;
+  }
+
+  .goalTaskDoneSection label {
+    font-size: 12px;
+  }
+
+  .addNewTaskModal .statusField {
+    font-size: 12px;
+  }
+
+  .font-size-input-field {
+    font-size: 12px !important;
+  }
+
+  .goalTaskHeader .navSide .searchSvg {
+
+    top: 13px;
+
+  }
+}
+
+@media (max-width: 767px) {
+  .goalTaskDoneSection .doneBtn {
+    font-size: 14px;
+  }
+
+  .goalTask .newItemBtn {
+    font-size: 14px;
+  }
+
+  .right-position {
+    right: -61px !important;
+  }
+}
+
+@media (max-width: 475px) {
+
+  .goalTaskHeader .navSide .searchFilterInputOpen,
+  .searchFilterInputOpen:focus {
+    font-size: 12px;
+
+    padding-top: 11px;
+  }
+
+  .drop-down-width {
+    width: 200px !important;
+    margin-right: 44px;
+  }
+}
+
+@media (max-width: 380px) {
+  .searchFilterInputOpen {
+    width: 140px !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .goalTaskHeader .navSide .goalSectionIcons {
+    padding: 1px !important;
+  }
+
+  .searchFilterInputOpen {
+    width: 108px !important;
+  }
+}
+
+.statusoptions {
+  color: #404040;
+
+  /* Caption */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+textarea#descriptionGoalTask {
+  padding: 10px !important;
+}
+
+input#comments {
+  padding: 8px !important;
+}
+
+.p-float-label label {
+  margin-top: -11px;
+}
+
+.p-float-label input:focus~label,
+.p-float-label input:-webkit-autofill~label,
+.p-float-label input.p-filled~label,
+.p-float-label textarea:focus~label,
+.p-float-label textarea.p-filled~label,
+.p-float-label .p-inputwrapper-focus~label,
+.p-float-label .p-inputwrapper-filled~label,
+.p-float-label .p-tooltip-target-wrapper~label {
+  display: none;
+}
+
+.p-datepicker:not(.p-datepicker-inline) {
+  z-index: 99999 !important;
+  width: 357px;
+}
+
+
+.card-body h5 {
+  color: var(--tertiary-color-2, #f47b00) !important;
+  font-size: 16px !important;
+  font-family: "Open Sans" !important;
+  font-weight: 700 !important;
+  margin: 0px !important;
+}
+
+.no-botttom-margin {
+  margin-bottom: 0 !important;
+}

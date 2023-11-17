@@ -1,0 +1,132 @@
+/* .css-p55zm9-MuiButtonBase-root-MuiIconButton-root {
+    margin-left: 50px !important;
+    margin-right: 0 !important
+} */
+
+.css-2dum1v-MuiDrawer-docked .MuiDrawer-paper {
+  /* z-index: 9999; */
+}
+
+.css-y8hcc7-MuiButtonBase-root-MuiIconButton-root {
+  color: #000 !important;
+  margin-left: 50px !important;
+  margin-right: 0 !important;
+  /* background-color: #000 !important; */
+}
+
+.css-1pv7n5u .MuiDrawer-paper,
+.css-1hsz34s-MuiDrawer-docked .MuiDrawer-paper {
+  width: 270px !important;
+}
+
+.css-1m5i5w0-MuiButtonBase-root-MuiListItemButton-root:hover {
+  background: var(--tertiary-color-3, #f6e5cf) !important;
+}
+
+.css-1fqi8hc-MuiButtonBase-root-MuiListItemButton-root:hover {
+  background: var(--tertiary-color-3, #f6e5cf) !important;
+}
+
+.css-10hburv-MuiTypography-root {
+  color: var(--deep-grey, rgba(37, 39, 39, 0.78)) !important;
+  font-family: "Lato" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+}
+
+.css-h4y409-MuiList-root {
+  padding-top: 20px !important;
+}
+
+.fc-toolbar-chunk {
+  display: flex;
+  align-items: center;
+  margin-inline-end: auto;
+}
+
+.fc-prev-button,
+.fc-next-button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.fc-prev-button .svg-inline--fa,
+.fc-next-button .svg-inline--fa {
+  width: 1em;
+  height: 1em;
+}
+
+.fc-header-space {
+  flex-grow: 1;
+}
+
+.fc .fc-toolbar {
+  flex-wrap: wrap;
+}
+
+.DashboardMainContainer .MuiPaper-elevation::-webkit-scrollbar {
+  width: 0 !important;
+  display: none !important;
+}
+
+.css-1hss2a1-MuiButtonBase-root-MuiListItemButton-root:hover {
+}
+
+@media (max-width: 768px) {
+  .fc .fc-toolbar {
+    display: flex;
+    justify-content: center !important;
+  }
+
+  .fc-toolbar-chunk {
+    margin-top: 1.5em;
+    padding-right:1rem !important;
+  }
+}
+@media (min-width: 768px) {
+  .fc .fc-button .fc-icon {
+    padding-top: 6px;
+  }
+}
+@media (max-width: 1100px) and (min-width: 768px) {
+  .fc-toolbar-chunk {
+    margin-bottom: 20px;
+
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .fc-toolbar-chunk {
+    margin-inline-end: auto;
+    padding-right:1rem !important;
+  }
+}
+
+.activebackgroundColor {
+  color: #f47b00 !important;
+
+  /* Header 3 */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 28px */
+}
+.bgDashColor {
+  background-color: #f6e5cf !important;
+}
+.inActivebackgroundColor {
+  color: var(--deep-grey, rgba(37, 39, 39, 0.78)) !important;
+  /* Caption */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 22.4px */
+}
+

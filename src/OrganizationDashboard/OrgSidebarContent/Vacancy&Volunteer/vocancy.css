@@ -1,0 +1,249 @@
+/* Changed */
+/* Modal */
+.VolanteerMain {
+  border-radius: 14px !important;
+  padding-top: 10px;
+  cursor: context-menu;
+  /* Card shadow */
+  padding-left: 100px;
+  padding-right: 50px;
+  padding-top: 10px;
+}
+
+.vacancy-breadcrum {
+  color: var(--tertiary-color-2, #F47B00);
+  text-align: center;
+
+  /* Header 3 */
+  font-family: 'Lato';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 28px */
+  cursor: pointer;
+}
+
+/*  */
+.VolanteerMain .p-dialog-title {
+  color: var(--mid-grey, rgba(37, 39, 39, 0.3));
+  cursor: context-menu;
+
+  /* Header 2 */
+  font-family: 'Ysabeau';
+  font-size: 48px !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: 100%;
+  letter-spacing: -0.5px;
+}
+
+.VolanteerMain .p-dialog-header {
+  cursor: context-menu !important;
+  align-items: center;
+}
+
+.VolanteerMain .p-dialog-header-icons {
+  display: none;
+}
+
+.VolanteerMain .p-dialog-header-icons-custom * {
+  width: 25px !important;
+  height: 25px;
+  cursor: pointer;
+}
+
+.VolanteerMain .p-dialog-header-icons-custom svg:hover {
+  color: rgba(37, 39, 39, 0.3) !important;
+}
+
+.VolanteerMain .statusField {
+  display: flex;
+  justify-content: space-between;
+  color: var(--grey, #6f7373);
+  background: #FCFCFC;
+
+  /* Caption */
+  font-family: 'Lato';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  padding-top: 16px;
+  border-radius: 5px;
+  border: 1px solid var(--light-grey, #E0E0DB);
+
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04);
+}
+
+.volenteerDropdown .monthDropdown {
+  border-radius: 5px;
+  background: #fcfcfc;
+
+  /* Shadow/XSM */
+  box-shadow: 0px 1px 2px 3px rgba(16, 24, 40, 0.06);
+  color: var(--grey, #6f7373);
+
+  /* Caption */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  /* height: 250px; */
+  overflow-y: auto;
+  font-weight: 400;
+  line-height: 140%;
+  /* 22.4px */
+  z-index: 99;
+}
+
+.vacancy-btn {
+  background: #FFB962;
+  border: 2px solid #FFB962;
+  border-radius: 14px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  width: 240px;
+  height: 55px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.VocancySection .AboutEventFlex {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  margin-bottom: 15px;
+}
+
+.VocancySection .vacancyCard {
+  border-radius: 14px;
+  background: #fcfcfc;
+  border: 1px solid #E0E0DB;
+  padding: 24px 32px;
+  box-shadow: 2px 2px 10px 0px rgba(183, 200, 205, 0.18);
+}
+
+.VacancyFlex h2 {
+  color: rgba(37, 39, 39, 0.78);
+  /* Navigation bar */
+  font-family: 'Lato';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 25.2px */
+}
+
+.vacancyCard h1 {
+  color: rgba(37, 39, 39, 0.80);
+  /* Header 3 */
+  font-family: 'Lato';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 28px */
+}
+
+.exhibitionStaffContent {
+  color: rgba(37, 39, 39, 0.80);
+  /* secondary text */
+  font-family: 'Lato';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  /* 157.143% */
+  letter-spacing: -0.1px;
+}
+
+.exhibitionStaffContent span {
+  color: rgba(37, 39, 39, 0.80);
+  font-family: 'Lato';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+}
+
+.vacancyStatus {
+  color: rgba(47, 160, 112, 0.90) !important;
+}
+
+.vacancyStatusClose {
+  color: #B73838 !important;
+
+}
+
+@media screen and (max-width: 768px) {
+  .VolanteerMain {
+    padding-left: 60px !important;
+    padding-right: 10px !important;
+  }
+
+
+}
+
+@media screen and (max-width: 425px) {
+  .vacancy-btn {
+    font-size: 16px;
+    width: 160px;
+    height: 58px;
+
+  }
+}
+
+.cross-in-city {
+  position: absolute;
+  /* align-items: center; */
+  /* justify-content: center; */
+  top: 5px;
+  cursor: pointer;
+  right: 10px;
+
+}
+
+.visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  /* transition: visibility 0s 0.3s, opacity 0.3s; */
+}
+
+.places-dropdown {
+  position: absolute;
+  z-index: 1;
+  background-color: rgb(248, 249, 250);
+  /* width: 100%; */
+}
+
+
+.places-dropdown-item {
+  padding: 10px;
+  background-color: rgb(248, 249, 250);
+  border-bottom: 1px solid rgb(3, 3, 3);
+  cursor: pointer;
+
+}
+
+
+.places-dropdown-item:hover {
+  background-color: #ffffff;
+}
+
+@media (max-width: 576px) {
+  .vacancy-btn {
+    font-size: 16px;
+    width: 200px;
+    height: 58px;
+  }
+}

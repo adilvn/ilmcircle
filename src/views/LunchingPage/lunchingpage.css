@@ -1,0 +1,92 @@
+.lunching-text p {
+  color: var(--black, #252727);
+  text-align: center;
+
+  /* Navigation bar */
+  font-family: "lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.modal-backgorund {
+  border-radius: 14px;
+  /* background-image: linear-gradient(red, yellow); */
+  background-image: linear-gradient(180deg,
+      #caf3f1 0%,
+      rgba(177, 215, 251, 0.75) 100%) !important;
+}
+
+.NotifyModalStyle h6 {
+  color: #252727;
+  text-align: center;
+
+  /* Header 2 */
+  font-family: "Ysabeau";
+  font-size: 40px !important;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  /* 48px */
+  letter-spacing: -0.5px;
+}
+
+.NotifyModalStyle .modal-dialog {
+  max-width: 550px !important;
+}
+
+.NotifyModalStyle span {
+  color: rgba(37, 39, 39, 0.78);
+
+  /* Button */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 22.4px */
+}
+
+.NotifyModalStyle h3 {
+  color: rgba(37, 39, 39, 0.78);
+
+  /* Caption */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 22.4px */
+}
+
+.w-80 {
+  width: 80% !important;
+}
+
+.modal-content {
+  /* background: #fff; */
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 5px 10px;
+  width: 25rem;
+  /* min-height: 12rem; */
+  text-align: start !important;
+}
+
+.slide-box-one {
+  padding: 30px;
+}
+
+.modal-header {
+  padding: 0 !important;
+}
+
+@media (min-width: 1024px) {
+
+  .modal-content {
+
+    padding: 20px !important;
+
+  }
+}

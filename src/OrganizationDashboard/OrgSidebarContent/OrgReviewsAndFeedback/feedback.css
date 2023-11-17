@@ -1,0 +1,142 @@
+.SubscriptionHeading h1 {
+  color: #545656;
+  font-weight: 600;
+}
+.padding-Start-135{
+  padding-left: 135px;
+}
+
+
+.ReviwsandFeedbackTabs .nav-link {
+  background-color: white;
+  color: rgba(37, 39, 39, 0.78);
+  text-align: center;
+
+  /* Button */
+  font-family: 'Lato';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 22.4px */
+  /* border-right: 1px solid #545656; */
+}
+
+.ReviwsandFeedbackTabs .nav-link.active {
+  background-color: #f6e5cf;
+  color: rgba(37, 39, 39, 0.78);
+  text-align: center;
+  /* Button */
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 22.4px */
+  /* border: none; */
+}
+
+.ReviwsandFeedbackTabs h4 {
+  color: var(--black, #252727);
+  /* Header 3 */
+  font-size: 20px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.ReviwsandFeedbackTabs h5 {
+  color: var(--deep-grey, rgba(37, 39, 39, 0.78));
+  font-size: 18px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.currentPlan p {
+  color: var(--grey, #6f7373);
+  /* Caption */
+  font-size: 16px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.border-bottem {
+  border-bottom: 1px solid #5456561f;
+  padding-bottom: 5px;
+}
+
+.currentPlan .changeBtn {
+  color: #F47B00;
+
+  /* Button */
+  font-family: 'Lato';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 22.4px */
+}
+
+.currentPlan .form-check-input,
+.form-check-input:focus {
+  /* font-size: 30px; */
+  width: 1.6em;
+  box-shadow: none;
+  outline: none;
+}
+
+.currentPlan .subNumber {
+  color: var(--secondary-color-3, #2f90ec);
+  font-size: 16px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.SubPriceTextColor {
+  color: var(--deep-grey, rgba(37, 39, 39, 0.78));
+  /* Button */
+  font-size: 16px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: 140%;
+}
+
+.ReviewCardMain {
+  padding: 24px 0 !important;
+}
+
+.SubscriptionHeading h5 {
+  color: #252727;
+  /* text-align: center; */
+  /* Header 2 */
+  font-family: 'Ysabeau';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  /* 48px */
+  letter-spacing: -0.5px;
+}
+@media screen and (max-width: 7680px) {
+.padding-Start-135{
+  padding-left: 84px !important;
+}
+}
+@media screen and (max-width: 570px) {
+  .padding-Start-135{
+    padding-left: 70px !important;
+  }
+  .SubscriptionHeading h5 {
+    font-size: 32px;  
+    line-height: 100%;
+   
+  }
+  }

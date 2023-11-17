@@ -1,0 +1,570 @@
+.screenPadding {
+    padding-left: 65px;
+}
+
+.MyEventDetailsPadding {
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+.orgHeaderSection {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 15px;
+}
+
+.justy-words-class {
+    text-align: justify !important;
+    padding: 0 5px 0 0;
+}
+
+.orgHeaderSection h1 {
+    color: #F47B00;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.orgEventHeading {
+    margin-top: 20px;
+}
+
+.orgEventHeading h1 {
+    color: rgba(37, 39, 39, 0.80);
+    /* Header 2 */
+    font-family: 'Ysabeau';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 0;
+    line-height: 100%;
+    /* 48px */
+    letter-spacing: -0.5px;
+}
+
+.AboutEvent .AboutEventFlex {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    margin-bottom: 15px;
+}
+
+.orgEventMain .AboutEvent h2 {
+    color: rgba(37, 39, 39, 0.80);
+    font-family: 'Ysabeau';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    /* 30px */
+    letter-spacing: -0.5px;
+}
+
+.AboutEvent .myEventsCard {
+    border-radius: 14px;
+    background: #fcfcfc;
+    border: 1px solid #E0E0DB;
+    padding: 24px 32px;
+    /* Card shadow */
+    box-shadow: 2px 2px 10px 0px rgba(183, 200, 205, 0.18);
+}
+
+.myEventsCard h3 {
+    color: rgba(37, 39, 39, 0.80);
+    /* Caption */
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 0;
+    /* 22.4px */
+}
+
+.myEventsCard .eventNameInput {
+    border-radius: 5px;
+    border: 1px solid var(--light-grey, #E0E0DB);
+    background: #FCFCFC;
+    width: 100%;
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 8px;
+    color: rgba(37, 39, 39, 0.80);
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 22.4px */
+
+}
+
+
+
+.myEventsCard .eventNameTextArea {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+
+    width: 100%;
+    gap: 8px;
+    border-radius: 5px;
+    border: 1px solid #E0E0DB;
+    background: #FCFCFC;
+    color: var(--black, rgba(37, 39, 39, 0.80));
+    /* Paragraph */
+    font-family: 'Lato';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    /* 25.2px */
+    /* Shadow/XSM */
+    line-height: 140%;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04);
+}
+
+
+
+.myEventsCard .form-select {
+    --bs-form-select-bg-img: url(../../../asserts/images/eventLeftIcon.png) !important;
+    display: flex;
+    padding: 12px 12px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+    border: 1px solid #E0E0DB;
+    color: rgba(37, 39, 39, 0.80);
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 22.4px */
+    /* background: #FCFCFC; */
+}
+
+.form-select:focus {
+    box-shadow: none !important;
+}
+
+.forgetInputs {
+    position: relative;
+}
+
+.loginPasswordInput {
+    width: 100%;
+    box-shadow: none !important;
+    padding: 12px 12px;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #E0E0DB;
+    background: #FCFCFC;
+    color: rgba(37, 39, 39, 0.80);
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.emailInputsHandler .MyEventEdit {
+    cursor: pointer;
+    position: absolute;
+    right: 25px;
+    top: 16px
+}
+
+.emailInputsHandler .MyEventCross {
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 19px;
+}
+
+textarea {
+    box-sizing: border-box;
+}
+
+.MedaiSectionTwo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.MedaiSectionTwo .MediaEdit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.MedaiSectionTwo h1 {
+    color: rgba(37, 39, 39, 0.80);
+    /* Header 3 */
+    font-family: 'Lato';
+    font-size: 20px;
+    font-style: normal;
+    margin-bottom: 0;
+    font-weight: 700;
+    line-height: 140%;
+    /* 28px */
+}
+
+.MediaEdit h4 {
+    color: #F47B00;
+    font-family: 'Lato';
+    margin-bottom: 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.myEventsFileInput {
+    margin-top: 55px;
+
+}
+
+.MedaiSectionTwo span {
+    color: #2F90EC;
+    /* Header 3 */
+    font-family: 'Lato';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.myEventsFileInput .file-input-label {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 14px;
+    background: #FFB962;
+    padding: 9px 110px;
+    color: var(--black, rgba(37, 39, 39, 0.80));
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    cursor: pointer;
+    border: 2px solid #FFB962;
+
+}
+
+.myEventsFileInput .file-input-label:hover {
+    background: #f6e5cf;
+    border: 2px solid #FFB962;
+}
+
+.myEventsFileInput .file-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+
+}
+
+.attendeeSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.attendeeItem {
+    width: calc(16.66% - 10px);
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.attendeeSection p {
+    color: rgba(37, 39, 39, 0.80);
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    /* 157.143% */
+    margin-bottom: 0;
+    text-align: center;
+    letter-spacing: -0.1px;
+}
+
+.reviewProgressbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.progressBarStyle p {
+    color: rgba(37, 39, 39, 0.80);
+    /* Text S/Medium */
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+.progressBarStyle .progress-bar {
+    background: linear-gradient(116deg, #52A3DE 0%, #4C7ECA 100%);
+}
+
+.react-stars-wrapper {
+    display: inline-block !important;
+}
+
+.starRatingReviews h1 {
+    color: rgba(37, 39, 39, 0.80);
+    font-family: 'Lato';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    /* 48px */
+    letter-spacing: -0.5px;
+}
+
+.starRatingReviews p {
+    color: rgba(37, 39, 39, 0.80);
+    /* text-align: center; */
+    font-family: 'Lato';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 183.333% */
+    letter-spacing: -0.1px;
+}
+
+.OrgtitleClass {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.reviewsMap h3 {
+    color: rgba(37, 39, 39, 0.80);
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.reviewsMap p {
+    color: rgba(37, 39, 39, 0.80);
+    /* Navigation bar */
+    font-family: 'Lato';
+    font-size: 18px;
+    /* width: 15%; */
+    /* text-align: center; */
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    margin-bottom: 0;
+    /* 25.2px */
+}
+
+.reviewsMap h4 {
+    color: rgba(37, 39, 39, 0.80);
+
+    /* secondary text */
+    font-family: 'Lato';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 157.143% */
+    letter-spacing: -0.1px;
+
+}
+
+.ratingstarNumber {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.ratingstarNumber .ratingNumber {
+    color: #000;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    position: relative;
+    top: 2px;
+
+}
+
+.replayViews {
+    display: flex;
+    justify-content: space-between;
+}
+
+.replayViews .replayViewText {
+    color: #F47B00;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.ReviewCardMain {
+    padding: 24px 32px;
+
+}
+
+.reviewHeaderRow {
+    padding: 0 14px 0 14px;
+}
+
+.MediaEdit h6 {
+    color: #F47B00;
+    /* Button */
+    font-family: 'Lato';
+    font-size: 16px;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 22.4px */
+}
+
+.cultureStreet {
+    top: 12px;
+    right: 10px;
+
+}
+
+
+@media screen and (max-width: 576px) {
+    .screenPadding {
+        padding-left: 51px;
+    }
+
+    .orgEventHeading h1 {
+        font-size: 30px;
+    }
+
+    .myEventsFileInput .file-input-label {
+        padding: 9px 70px;
+
+    }
+
+    .attendeeItem {
+        width: calc(50% - 10px);
+    }
+
+    .MyEventDetailsPadding {
+        padding-left: 60px;
+        padding-right: 10px;
+    }
+
+    .cultureStreet {
+        top: 20px !important;
+        right: 10px;
+
+    }
+
+
+}
+
+/* Responsive styles for 992px and below */
+@media screen and (max-width: 992px) {
+    .attendeeItem {
+        width: calc(25% - 10px);
+    }
+}
+
+/* Responsive styles for 768px and below */
+@media screen and (max-width: 768px) {
+    .attendeeItem {
+        width: calc(33.33% - 10px);
+    }
+
+    .MyEventDetailsPadding {
+        padding-left: 60px;
+        padding-right: 0;
+    }
+
+    .orgEventHeading h1 {
+        color: rgba(37, 39, 39, 0.80);
+        font-family: 'Ysabeau';
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        margin-bottom: 0;
+        line-height: 100%;
+        letter-spacing: -0.5px;
+    }
+
+    .cultureStreet {
+        top: 12px !important;
+        right: 10px;
+
+    }
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+    .screenPadding {
+        padding-left: 65px;
+    }
+}
+
+@media (max-width: 468px) {
+    .attendeeItem {
+        width: 100%;
+    }
+
+    .starRatingReviews h1 {
+
+        font-size: 32px;
+
+    }
+
+}
+
+.css-1r9jet7 {
+    display: none;
+}
+
+@media screen and (max-width: 375px) {
+    .emailInputsHandler .MyEventEdit {
+
+        right: 20px;
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .emailInputsHandler .MyEventEdit {
+
+        right: 8px;
+        top: 17px;
+    }
+
+    .selected-image-size {
+        height: 160px;
+        width: 256px;
+
+    }
+
+
+}

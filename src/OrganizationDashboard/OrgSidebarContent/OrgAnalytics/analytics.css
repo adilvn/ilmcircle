@@ -1,0 +1,251 @@
+.analyticsMainSection {
+  padding-left: 100px;
+  padding-right: 40px;
+}
+
+.analyticsMainSection .header h3 {
+  color: var(--black, #252727);
+
+  /* Header 2 */
+  font-family: "Ysabeau";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  /* 48px */
+  letter-spacing: -0.5px;
+}
+
+.analyticsMainSection .analyticSectionMain .analyticItem {
+  border-radius: 8px 0px 0px 8px;
+  border: 1px solid var(--light-grey, #e0e0db);
+
+  /* Card shadow/light */
+  box-shadow: 2px 2px 10px 0px rgba(183, 200, 205, 0.18);
+}
+
+.analyticsMainSection .analyticSectionMain .analyticItem2 {
+  border-top: 1px solid var(--light-grey, #e0e0db);
+  border-bottom: 1px solid var(--light-grey, #e0e0db);
+
+  /* Card shadow/light */
+  box-shadow: 2px 2px 10px 0px rgba(183, 200, 205, 0.18);
+}
+
+.analyticsMainSection .analyticSectionMain .analyticItem3 {
+  border: 1px solid var(--light-grey, #e0e0db);
+}
+
+.analyticsMainSection .analyticSectionMain .analyticItem4 {
+  border-radius: 0px 8px 8px 0px;
+  border-top: 1px solid var(--light-grey, #e0e0db);
+  border-right: 1px solid var(--light-grey, #e0e0db);
+  border-bottom: 1px solid var(--light-grey, #e0e0db);
+  background: var(--secondary-color-2, #f3fafc);
+
+  /* Card shadow/light */
+  box-shadow: 2px 2px 10px 0px rgba(183, 200, 205, 0.18);
+}
+
+.analyticsMainSection .analyticSectionMain h5 {
+  color: #404040;
+
+  /* Navigation bar */
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 25.2px */
+}
+
+.analyticsMainSection .analyticSectionMain h6 {
+  color: var(--secondary-color-3, #2f90ec);
+  font-family: "Lato";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 42px */
+}
+
+.analyticsMainSection .analyticSectionMain .percent {
+  color: var(--signal-positive, rgba(47, 160, 112, 0.9));
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 22.4px */
+}
+
+.analyticsMainSection .graphSection .heading h3 {
+  color: #404040;
+  font-family: "Lato";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 42px */
+}
+
+.analyticsMainSection .graphSection .heading p {
+  color: #404040;
+
+  /* Paragraph */
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  /* 25.2px */
+}
+
+.analyticsMainSection .graphSection .attandanceGraphMain {
+  padding: 32px 48px;
+  border-radius: 14px;
+  border: 1px solid var(--light-grey, #e0e0db);
+  background: #fcfcfc;
+
+  /* Card shadow/light */
+  box-shadow: 2px 2px 10px 0px rgba(183, 200, 205, 0.18);
+}
+
+.analyticsMainSection .graphSection .attandanceGraphMain .graphHeading {
+  color: #000;
+  text-align: center;
+
+  /* Header 3 */
+  font-family: "Lato";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 28px */
+}
+
+.attandanceGraphMain canvas {
+  width: 100% !important;
+}
+
+.analyticsMainSection .graphSection .attandanceGraphMain .garphLineName {
+  color: var(--black, #252727);
+
+  /* secondary text */
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  /* 157.143% */
+  letter-spacing: -0.1px;
+}
+
+.repeatattanceGraphHeading {
+  color: #000;
+  text-align: center;
+
+  /* Header 3 */
+  font-family: "Lato";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 28px */
+}
+
+.analyticsMainSection .dotsMainContainerGraph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.analyticsMainSection .dotsMainContainerGraph p {
+  color: var(--black, #252727);
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 22.4px */
+  margin-left: 10px;
+}
+
+.analyticsMainSection .dotsMainContainerGraph span {
+  padding: 6px;
+  border-radius: 41px;
+  background: var(--secondary-color-3, #2f90ec);
+}
+
+.analyticsMainSection .repeatAttendanceGraphMain {
+  border-radius: 14px;
+  border: 1px solid var(--light-grey, #e0e0db);
+  background: #fcfcfc;
+
+  /* Card shadow/light */
+  box-shadow: 2px 2px 10px 0px rgba(183, 200, 205, 0.18);
+}
+
+.AttendantLocationGraphMain {
+  padding: 32px 60px;
+  border-radius: 14px;
+  border: 1px solid var(--light-grey, #e0e0db);
+  background: #fcfcfc;
+
+  /* Card shadow/light */
+  box-shadow: 2px 2px 10px 0px rgba(183, 200, 205, 0.18);
+}
+
+
+.forColLg7 {
+  width: 53%;
+  flex: 0 0 auto;
+}
+
+@media (max-width: 991px) {
+  .graphPadding {
+    margin-top: 3rem;
+  }
+
+  .forColLg7 {
+    width: 100%;
+  }
+
+  .analyticsMainSection {
+    padding-left: 70px;
+    padding-right: 0px
+  }
+}
+
+@media (max-width: 767px) {
+  .analyticsMainSection {
+    padding-left: 60px;
+  }
+
+  .attandanceGraphMain {
+    padding: 5px !important;
+  }
+
+  .analyticsMainSection .dotsMainContainerGraph {
+    justify-content: left;
+  }
+  .analyticsMainSection .header h3 {
+
+    font-size: 32px;
+ 
+
+  }
+  .analyticsMainSection .graphSection .heading h3 {
+    font-size: 26px;
+    line-height: 100%;
+ 
+  }
+  
+.analyticsMainSection .graphSection .heading p {
+  padding-top: 10px;
+  font-size: 12px;
+  line-height: 100%;
+}
+}
+
+/* .apexcharts-text[x=] */

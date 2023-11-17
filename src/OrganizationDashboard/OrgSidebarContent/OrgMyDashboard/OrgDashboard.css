@@ -1,0 +1,468 @@
+.orgDashboardMain {
+  padding: 40px;
+}
+
+.pAll-24px {
+  padding: 24px;
+}
+
+.sectionBg {
+  border-radius: 14px;
+  background: #fcfcfc;
+
+  /* Card shadow */
+  box-shadow: 0px 4px 16px 0px rgba(138, 150, 154, 0.25);
+}
+
+.justy-words-class {
+  text-align: justify;
+  padding: 0 5px 0 0;
+}
+
+.mainDashboardPage {
+  padding-right: 10px;
+  padding-left: 70px;
+}
+
+.orgDashboardMain .sectionBg .header h3 {
+  color: var(--black, #252727);
+
+  /* Navigation bar */
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 25.2px */
+}
+
+.orgDashboardMain .sectionBg .allItemMain {
+  height: 350px;
+  overflow: auto;
+}
+
+.orgDashboardMain .sectionBg .allItemMain::-webkit-scrollbar {
+  width: 0px;
+  display: none;
+}
+
+.orgDashboardMain .sectionBg .itemEvent,
+.orgDashboardMain .sectionBg .itemLibrary,
+.orgDashboardMain .sectionBg .itemFeedback,
+.orgDashboardMain .sectionBg .itemMessage {
+  padding: 16px;
+  border-radius: 14px;
+  border: 1px solid var(--light-grey, #e0e0db);
+  flex-wrap: wrap;
+  background: #fcfcfc;
+  margin: 0px 0px 16px 0px;
+  /* Card shadow/light */
+  box-shadow: 2px 2px 10px 0px rgba(183, 200, 205, 0.18);
+}
+
+.orgDashboardMain .sectionBg .itemEvent img,
+.orgDashboardMain .sectionBg .itemMessage img,
+.orgDashboardMain .sectionBg .itemLibrary img {
+  border-radius: 2px;
+  width: 40px;
+  height: 40px;
+  /* Card shadow/light */
+  box-shadow: 2px 2px 10px 0px rgba(183, 200, 205, 0.18);
+}
+
+.orgDashboardMain .sectionBg .itemEvent .title {
+  color: var(--black, #252727);
+
+  /* Button */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 22.4px */
+}
+
+.orgDashboardMain .sectionBg .itemEvent .people h4 {
+  color: var(--black, #252727);
+  text-align: center;
+
+  /* Button */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 22.4px */
+}
+
+.orgDashboardMain .sectionBg .itemEvent .people p {
+  color: var(--deep-grey, rgba(37, 39, 39, 0.78));
+
+  /* secondary text */
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  /* 157.143% */
+  letter-spacing: -0.1px;
+}
+
+.orgDashboardMain .sectionBg .itemEvent .date {
+  border-radius: 40px;
+  background: var(--secondary-color-4, #d4e8ee);
+  color: var(--deep-grey, rgba(37, 39, 39, 0.78));
+  text-align: center;
+  padding: 4px 16px;
+  width: 110px;
+  /* height: 30px; */
+  /* secondary text */
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  /* 157.143% */
+  letter-spacing: -0.1px;
+}
+
+.orgDashboardMain .sectionBg .itemEvent .today {
+  color: rgba(183, 56, 56, 0.78);
+  text-align: center;
+
+  /* Button */
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 22.4px */
+}
+
+.orgDashboardMain .sectionBg .itemEvent .todayDate span {
+  padding: 5px;
+  margin-right: 8px;
+  background-color: rgba(183, 56, 56, 0.78);
+  border-radius: 100px;
+}
+
+.orgDashboardMain .sectionBg .itemLibrary .allText {
+  color: var(--black, #252727);
+  width: 267px;
+  /* secondary text */
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  /* 157.143% */
+  letter-spacing: -0.1px;
+}
+
+.orgDashboardMain .sectionBg .itemMessage .smallCardDot {
+  position: absolute;
+  right: -2px;
+  bottom: 0px;
+  border-radius: 100px;
+  padding: 5px;
+  background-color: #2f90ec;
+  border: 2px solid white;
+}
+
+.orgDashboardMain .sectionBg .itemMessage .name {
+  color: var(--black, #252727);
+
+  /* secondary text */
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  /* 157.143% */
+  letter-spacing: -0.1px;
+}
+
+.orgDashboardMain .sectionBg .itemMessage .content {
+  color: var(--grey, #6f7373);
+
+  /* tertiary text */
+  font-family: "Lato";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 200% */
+  letter-spacing: -0.1px;
+}
+
+.orgDashboardMain .sectionBg .itemMessage .innerText {
+  color: #414c59;
+  text-align: center;
+  font-family: "Lato";
+  font-size: 6.25px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 140%;
+  /* 8.75px */
+  background-color: #ffb962;
+  padding: 4px 5px;
+  border-radius: 100px;
+}
+
+/* Feedback */
+
+.orgDashboardMain .sectionBg .itemFeedback .totalRating {
+  color: #000;
+  font-family: "Lato";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  /* 166.667% */
+  letter-spacing: -0.1px;
+}
+
+.orgDashboardMain .sectionBg .itemFeedback .content {
+  color: var(--black, #252727);
+  font-family: "Lato";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  /* 133.333% */
+  letter-spacing: -0.1px;
+  margin: 8px 0px;
+}
+
+.orgDashboardMain .sectionBg .itemFeedback .name {
+  color: var(--black, #252727);
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  /* 157.143% */
+  letter-spacing: -0.1px;
+}
+
+.orgDashboardMain .sectionBg .itemFeedback img {
+  width: 24px;
+  height: 24px;
+}
+
+.orgDashboardMain .sectionBg .itemFeedback svg:hover {
+  color: #e9b42c !important;
+}
+
+.orgDashboardMain .sectionBg .header .allItems .statusField {
+  width: 120px;
+}
+
+.orgDashboardMain .sectionBg .header .allItems * {
+  color: var(--deep-grey, rgba(37, 39, 39, 0.78));
+
+  /* secondary text */
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  /* 157.143% */
+  letter-spacing: -0.1px;
+}
+
+.orgDashboardMain .sectionBg .analyticItem {
+  padding: 8px 4px;
+  border-radius: 8px 0px 0px 8px;
+  border-top: 1px solid var(--light-grey, #e0e0db);
+  border-bottom: 1px solid var(--light-grey, #e0e0db);
+  border-left: 1px solid var(--light-grey, #e0e0db);
+  background: #fcfcfc;
+
+  /* Card shadow/light */
+  box-shadow: 2px 2px 10px 0px rgba(183, 200, 205, 0.18);
+}
+
+.orgDashboardMain .sectionBg .analyticItem2 {
+  border: 1px solid var(--secondary-color-4, #d4e8ee);
+  background: #f3fafc;
+
+  /* Card shadow/light */
+  box-shadow: 2px 2px 10px 0px rgba(183, 200, 205, 0.18);
+}
+
+.orgDashboardMain .sectionBg .analyticItem3 {
+  border-top: 1px solid var(--light-grey, #e0e0db);
+  border-right: 1px solid var(--light-grey, #e0e0db);
+  border-bottom: 1px solid var(--light-grey, #e0e0db);
+  background: #fff;
+
+  /* Card shadow/light */
+  box-shadow: 2px 2px 10px 0px rgba(183, 200, 205, 0.18);
+}
+
+.orgDashboardMain .sectionBg .analyticItem4 {
+  border-radius: 0px 8px 8px 0px;
+  border-top: 1px solid var(--light-grey, #e0e0db);
+  border-right: 1px solid var(--light-grey, #e0e0db);
+  border-bottom: 1px solid var(--light-grey, #e0e0db);
+  background: #fff;
+
+  /* Card shadow/light */
+  box-shadow: 2px 2px 10px 0px rgba(183, 200, 205, 0.18);
+}
+
+.orgDashboardMain .sectionBg .analyticSection .text {
+  color: var(--deep-grey, rgba(37, 39, 39, 0.78));
+  font-family: "Lato";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 166.667% */
+  letter-spacing: -0.1px;
+}
+
+.orgDashboardMain .sectionBg .analyticSection .number {
+  color: var(--secondary-color-3, #2f90ec);
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 140%;
+  /* 22.4px */
+}
+
+.orgDashboardMain .sectionBg .analyticSection .percent {
+  color: var(--signal-positive, rgba(47, 160, 112, 0.9));
+  font-family: "Lato";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  /* 166.667% */
+  letter-spacing: -0.1px;
+}
+
+.orgDashboardMain .sectionBg .analyticSection2 .heading {
+  color: var(--black, #252727);
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  /* 157.143% */
+  letter-spacing: -0.1px;
+}
+
+.orgDashboardMain .sectionBg .analyticSection2 .subText {
+  color: var(--deep-grey, rgba(37, 39, 39, 0.78));
+  font-family: "Lato";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  /* 220% */
+  letter-spacing: -0.1px;
+}
+
+.orgDashboardMain .sectionBg .analyticSection2 .subText .textNumber {
+  color: var(--signal-negative, #b73838);
+  font-family: "Lato";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+}
+
+.orgDashboardMain .sectionBg .analyticSection2 canvas {
+  height: 195px !important;
+  width: 100% !important;
+}
+
+@media (max-width: 992px) {
+  .mainDashboardPage {
+    padding-left: 50px;
+    padding-right: 0;
+  }
+
+  .mainDashboardPage .orgDashboardMain {
+    padding: 20px !important;
+  }
+
+  .orgDashboardMain .sectionBg .itemEvent .people h4 {
+    text-align: start;
+  }
+}
+
+@media (max-width: 576px) {
+
+  /* .orgDashboardMain .sectionBg .itemEvent,
+  .orgDashboardMain .sectionBg .itemLibrary,
+  .orgDashboardMain .sectionBg .itemFeedback,
+  .orgDashboardMain .sectionBg .itemMessage {
+    display: grid !important
+  } */
+
+  .orgDashboardMain .sectionBg .itemEvent .title {
+    margin-top: 10px;
+  }
+
+  .orgDashboardMain .sectionBg .itemEvent .date {
+    margin-top: 10px;
+  }
+
+  .todayDate {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .orgDashboardMain .sectionBg .itemEvent .title {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .orgDashboardMain .sectionBg .itemEvent .people p {
+    font-size: 12px;
+  }
+
+  .orgDashboardMain .sectionBg .itemEvent .date {
+    font-size: 12px;
+  }
+
+  .orgDashboardMain .sectionBg .itemEvent .today {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 570px) {
+  .orgDashboardMain .sectionBg .itemMessage .smallCardDot {
+
+    right: 95px;
+
+  }
+
+}
+
+@media screen and (max-width: 325px) {
+
+  .orgDashboardMain .sectionBg .itemEvent,
+  .orgDashboardMain .sectionBg .itemLibrary,
+  .orgDashboardMain .sectionBg .itemFeedback,
+  .orgDashboardMain .sectionBg .itemMessage {
+    display: grid !important
+  }
+
+
+}
+
+@media screen and (max-width: 425px) {
+  .orgDashboardMain .sectionBg .itemLibrary .allText {
+
+    width: fit-content !important;
+
+
+  }
+}
