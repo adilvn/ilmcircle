@@ -80,14 +80,14 @@ const App = () => {
   ];
 
   useEffect(() => {
-    // dispatch(
-    //   setSockets(
-    //     io("https://alhikmahinternational.org", {
-    //       path: "/ilmcircle",
-    //     })
-    //   )
-    // );
-    dispatch(setSockets(io("http://ilmcircle.com:8080")));
+    dispatch(
+      setSockets(
+        io("https://ilmcircle.com", {
+          path: "/backend",
+        })
+      )
+    );
+    // dispatch(setSockets(io("http://ilmcircle.com:8080")));
   }, []);
 
   const token = secureLocalStorage.getItem("token");
